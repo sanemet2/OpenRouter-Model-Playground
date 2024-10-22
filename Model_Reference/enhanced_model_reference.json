@@ -1,0 +1,1921 @@
+{
+  "text_models": [
+    {
+      "name": "xAI: Grok Beta",
+      "id": "x-ai/grok-beta",
+      "prompt_cost": "$5",
+      "completion_cost": "$15",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for 'xAI: Grok Beta' was found.",
+      "description": "- **Strengths**: Exceptional conversational flow, handling complex multi-turn interactions, robust with ambiguous inputs, and real-time data integration from X.\n- **Weaknesses**: Limited effectiveness in domain-specific knowledge (e.g., scientific topics).\n- **Relevant Info**: Grok-2 features state-of-the-art reasoning and multimodal capabilities, including image generation.\n- **Model Variant**: Grok-2 is an advanced version of its predecessor, Grok-1.5."
+    },
+    {
+      "name": "Ministral 8B",
+      "id": "mistralai/ministral-8b",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "Ministral 8B has an output speed of 135.2 tokens per second.",
+      "description": "- **Good at:** Knowledge and reasoning tasks, especially in edge computing environments; supports long context length (up to 128k).\n- **Not good at:** Performance might lag in highly complex tasks compared to larger models.\n- **Other relevant info:** Features interleaved sliding-window attention for efficient inference; available for research and commercial use.\n- **Variant of existing model:** No, it's a new model launched by Mistral AI, succeeding the Mistral 7B."
+    },
+    {
+      "name": "Ministral 3B",
+      "id": "mistralai/ministral-3b",
+      "prompt_cost": "$0.04",
+      "completion_cost": "$0.04",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The Ministral 3B model has a median output speed of 212 tokens per second.",
+      "description": "- **What it's good at:** Optimized for edge computing, effective in knowledge reasoning and function-calling tasks.\n- **What it's not good at:** May struggle with complex language tasks compared to larger models.\n- **Additional info:** A compact 3B parameter model, designed for on-device applications, providing surprising performance in small packages.\n- **Model variant:** A smaller variant of the Mistral 7B model."
+    },
+    {
+      "name": "Qwen2.5 7B Instruct",
+      "id": "qwen/qwen-2.5-7b-instruct",
+      "prompt_cost": "$0.27",
+      "completion_cost": "$0.27",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The performance data for the Qwen2.5 7B Instruct model in terms of tokens per second is not specifically provided.",
+      "description": "- **Good at**: Natural language understanding, text generation, coding assistance, and handling long context inputs (up to 128K tokens).\n- **Not good at**: Complex reasoning or nuanced decision-making tasks may result in inaccuracies.\n- **Relevant information**: Has 7.61 billion parameters; optimized for instruction-following tasks; based on transformer architecture.\n- **Variant of an existing model**: It's an instruction-tuned variant of the Qwen series, specifically designed for better performance in coding and instruction tasks."
+    },
+    {
+      "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
+      "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data was found for the 'NVIDIA: Llama 3.1 Nemotron 70B Instruct' model.",
+      "description": "- **Strengths**: Excellent at generating helpful responses, language understanding, and code generation.\n- **Weaknesses**: May struggle with highly complex or ambiguous queries.\n- **Other Information**: Achieves high scores in multiple benchmarks; optimized for commercial use.\n- **Model Variant**: A customized variant of Meta's Llama 3.1 70B model by NVIDIA."
+    },
+    {
+      "name": "Inflection: Inflection 3 Pi",
+      "id": "inflection/inflection-3-pi",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "8,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for 'Inflection: Inflection 3 Pi' was found.",
+      "description": "- **Strengths:**\n  - Excels in emotional intelligence and personal interactions.\n  - Effective in customer support, roleplay scenarios, and generating personalized responses.\n  - Access to recent events and news.\n\n- **Limitations:**\n  - Can be easier to mislead compared to some advanced models like GPT-4.\n  - Less effective in technical or complex task-oriented queries.\n\n- **Other Info:**\n  - Part of the Inflection 3.0 model family, designed specifically for personal AI experiences.\n\n- **Variants:**\n  - Not a variant of an existing model; it is distinct to Inflection AI."
+    },
+    {
+      "name": "Inflection: Inflection 3 Productivity",
+      "id": "inflection/inflection-3-productivity",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "8,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the Inflection 3 Productivity model was found.",
+      "description": "- **Strengths**: Excellent at following instructions, producing JSON outputs, and ensuring precise adherence to guidelines.\n- **Weaknesses**: Less effective in emotional intelligence scenarios compared to other models like Inflection 3 Pi.\n- **Additional Info**: Suitable for enterprise applications; integrates with Intel's infrastructure.\n- **Model Variant**: It is part of the Inflection 3.0 family, distinct from models focused on emotional intelligence."
+    },
+    {
+      "name": "Google: Gemini 1.5 Flash-8B",
+      "id": "google/gemini-flash-1.5-8b",
+      "prompt_cost": "$0.0375",
+      "completion_cost": "$0.15",
+      "context_length": "1,000,000",
+      "moderation": "None",
+      "speed": "The AI model 'Google: Gemini 1.5 Flash-8B' has a median output speed of 284 tokens per second.",
+      "description": "- **Good at:** High-volume, high-frequency tasks; multimodal understanding; efficient on small prompts.\n- **Not good at:** May underperform on complex reasoning compared to heavier variants (like Gemini 1.5 Pro).\n- **Relevant Info:** Production-ready, cost-efficient (50% lower than previous versions); optimized for latency; supports long context windows.\n- **Variant of existing model:** Yes, it's a lightweight variant of Gemini 1.5."
+    },
+    {
+      "name": "Liquid: LFM 40B MoE",
+      "id": "liquid/lfm-40b",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the 'Liquid: LFM 40B MoE' model was found.",
+      "description": "- **Good at**: Modeling sequential data (text, audio, video) with high efficiency and performance.\n- **Not good at**: May struggle with tasks requiring extensive context beyond its large parameter capacity.\n- **Relevant info**: Features a Mixture of Experts (MoE) architecture; selectively activates 12B parameters for optimal performance.\n- **Model variant**: Yes, part of the Liquid Foundation Models series, a new framework challenging transformer-based models."
+    },
+    {
+      "name": "Liquid: LFM 40B MoE (free)",
+      "id": "liquid/lfm-40b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the 'Liquid: LFM 40B MoE (free)' model was found.",
+      "description": "- **Good at:** General-purpose tasks across various sequential data types like text, audio, video; competitive in efficiency and performance.\n- **Not good at:** Specialized niche tasks that require deep contextual understanding beyond generalization.\n- **Relevant info:** Utilizes a Mixture of Experts (MoE) architecture, offering scalability and efficiency; performs well even with fewer active parameters.\n- **Model variant:** Yes, it's part of the Liquid Foundation Models (LFMs) series, specifically the largest variant (LFM 40B)."
+    },
+    {
+      "name": "Rocinante 12B",
+      "id": "thedrummer/rocinante-12b",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.5",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the Rocinante 12B model was found.",
+      "description": "- **Strengths**: Excels in generating engaging, imaginative text; rich vocabulary and creative storytelling.\n- **Weaknesses**: May struggle with structured or logical reasoning tasks; less reliable for technical writing.\n- **Relevant Info**: Known for varied word choices and enhanced narrative depth; good for creative projects.\n- **Variants**: Rocinante 12B v1.1 is an updated variant, improving upon earlier iterations."
+    },
+    {
+      "name": "EVA Qwen2.5 14B",
+      "id": "eva-unit-01/eva-qwen-2.5-14b",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.5",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The EVA Qwen2.5 14B model achieves approximately 64 tokens per second when fully utilized on GPU.",
+      "description": "- **Strengths**: Excellent for role-play (RP) and creative writing; fine-tuned on a mix of synthetic and natural data.\n- **Weaknesses**: Not ideal for conversational use without additional training adjustments.\n- **Other Info**: Built on Qwen2.5 architecture with 14 billion parameters; trained on 3 million tokens.\n- **Model Variant**: Yes, it's a variant of Qwen2.5-14B."
+    },
+    {
+      "name": "Magnum v2 72B",
+      "id": "anthracite-org/magnum-v2-72b",
+      "prompt_cost": "$3.75",
+      "completion_cost": "$4.5",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the Magnum v2 72B model was found.",
+      "description": "- **What it's good at**: Prose generation, roleplay scenarios, conversational AI, multilingual capabilities.\n- **What it's not good at**: Precision in factual knowledge, may struggle with highly technical topics.\n- **Other information**: Based on Qwen2 72B, trained on 55 million curated roleplay tokens, Instruct tuned with ChatML formatting.\n- **Model variant**: Yes, it is a fine-tuned variant of Qwen-2 72B."
+    },
+    {
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The AI model 'Meta: Llama 3.2 3B Instruct (free)' achieves throughput rates of 619 to 1122 tokens per second, depending on the processing environment.",
+      "description": "- **Good at**: Instruction-following tasks, multilingual dialogue, summarization, responsive outputs.\n- **Not good at**: Complex reasoning, highly technical subject matter, understanding nuanced contexts.\n- **Other information**: Uses supervised fine-tuning and reinforcement learning; optimized for lightweight scenarios (1B/3B models).\n- **Model variant**: Yes, it's part of the Llama 3.2 family, instruction-tuned from previous versions."
+    },
+    {
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "prompt_cost": "$0.03",
+      "completion_cost": "$0.05",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The performance of the 'Meta: Llama 3.2 3B Instruct' model varies but can achieve throughputs of approximately 619 to 1122 tokens per second depending on the hardware used.",
+      "description": "- **Good at:** Multilingual dialogue generation, agentic retrieval, and summarization tasks.\n- **Not good at:** Tasks requiring extensive image processing (for 3B version; primarily text-focused).\n- **Relevant info:** 3 billion parameters, optimized for natural language processing, supports eight languages, advanced transformer architecture.\n- **Variant:** Part of the Llama 3.2 collection, instruction-tuned and pretrained."
+    },
+    {
+      "name": "Meta: Llama 3.2 1B Instruct (free)",
+      "id": "meta-llama/llama-3.2-1b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "There is no specific data available for the tokens per second performance of the 'Meta: Llama 3.2 1B Instruct (free)' model.",
+      "description": "- **Good at**: Multilingual dialogue, summarization, instruction-following tasks, and edge deployment.\n- **Not good at**: Advanced visual reasoning compared to larger multimodal models (e.g., Llama 3.2's 11B and 90B variants).\n- **Relevant info**: 1 billion parameters, supports 128K token context, released on September 25, 2024.\n- **Model variant**: A lightweight version of the Llama 3.2 family, designed for efficient use on mobile and edge devices."
+    },
+    {
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "prompt_cost": "$0.01",
+      "completion_cost": "$0.02",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The performance of the Meta: Llama 3.2 1B Instruct model is approximately 32-35 tokens per second.",
+      "description": "- **Good at**: Multilingual dialogue, agentic retrieval, and summarization tasks.\n- **Not good at**: Complex reasoning or tasks requiring deep contextual understanding.\n- **Other relevant info**: Lightweight model suitable for mobile and edge devices; supports context length of 128K tokens.\n- **Model variant**: A variant of the Llama series, instruction-tuned for specific tasks."
+    },
+    {
+      "name": "Meta: Llama 3.2 90B Vision Instruct",
+      "id": "meta-llama/llama-3.2-90b-vision-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "Specific tokens per second data for the AI model 'Meta: Llama 3.2 90B Vision Instruct' was not found.",
+      "description": "- **Good at**: Image understanding, visual recognition, image reasoning, OCR, and captioning.\n- **Not good at**: Highly abstract reasoning tasks that don't involve concrete visual data.\n- **Relevant info**: Multimodal model; works with text and images; sizes available: 11B and 90B.\n- **Model variant**: It is a variant of the Llama model series, specifically designed for vision tasks."
+    },
+    {
+      "name": "Meta: Llama 3.2 11B Vision Instruct (free)",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Meta: Llama 3.2 11B Vision Instruct' model was found.",
+      "description": "- **What it's good at**: Visual recognition, image reasoning, captioning, and answering questions related to images.\n- **What it's not good at**: May struggle with tasks requiring deep contextual understanding and complex visual interpretation.\n- **Other relevant information**: Part of Meta's Llama 3.2 series, supports both text and image inputs, optimized for multimodal tasks.\n- **Model variant**: Yes, it's a variant of the existing Llama 3.2 model with instruction-tuning for vision-related tasks."
+    },
+    {
+      "name": "Meta: Llama 3.2 11B Vision Instruct",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Meta: Llama 3.2 11B Vision Instruct' model was found.",
+      "description": "- **Good at**: Visual recognition, image reasoning, captioning, and visual question answering.\n- **Not good at**: Complex text-only tasks or deep context understanding beyond image-text interpretation.\n- **Capabilities**: 11 billion parameters; pre-trained on extensive image-text datasets; excels in high-accuracy image analysis.\n- **Model variant**: Yes, it's a variant of the Llama 3.2 model optimized for multimodal tasks (vision and language)."
+    },
+    {
+      "name": "Qwen2.5 72B Instruct",
+      "id": "qwen/qwen-2.5-72b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second data was found for the Qwen2.5 72B Instruct model.",
+      "description": "- **What it's good at**: Enhanced knowledge, coding capabilities, mathematics, instruction following; handles long texts (up to 8,192 tokens).\n- **What it's not good at**: May struggle with highly specialized domain knowledge outside its training.\n- **Other relevant info**: Supports over 29 languages, built with transformer architecture; improves upon predecessor Qwen2.\n- **Model variant**: Yes, it's an instruction-tuned variant of the Qwen2 model series."
+    },
+    {
+      "name": "Qwen2-VL 72B Instruct",
+      "id": "qwen/qwen-2-vl-72b-instruct",
+      "prompt_cost": "$0.4",
+      "completion_cost": "$0.4",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The performance of the Qwen2-VL 72B Instruct model is approximately 17.83 tokens per second.",
+      "description": "- **What it's good at**: Multimodal understanding of images, videos, and text; operates well with complex inputs; state-of-the-art performance on visual benchmarks; multilingual support.\n- **What it's not good at**: May struggle with highly nuanced or abstract reasoning tasks compared to some pure language models.\n- **Other relevant information**: Supports text instruction for device operation; designed with dynamic resolution handling.\n- **Model variant**: It's a 72B parameter version of the Qwen2-VL model, optimized for instructions."
+    },
+    {
+      "name": "Lumimaid v0.2 8B",
+      "id": "neversleep/llama-3.1-lumimaid-8b",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Lumimaid v0.2 8B model was found.",
+      "description": "- **Good at**: Text generation, conversational AI, and roleplay contexts.\n- **Not good at**: Handling explicit or inappropriate content responsibly (NSFW).\n- **Other notes**: A fine-tuned version of Llama 3.1 8B, trained on a curated dataset for enhanced conversation quality.\n- **Model variants**: Part of NeverSleep's Lumimaid series, shares architecture with Llama models."
+    },
+    {
+      "name": "OpenAI: o1-mini (2024-09-12)",
+      "id": "openai/o1-mini-2024-09-12",
+      "prompt_cost": "$3",
+      "completion_cost": "$12",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The OpenAI o1-mini model (2024-09-12) has a performance of approximately 74 tokens per second.",
+      "description": "- **Good at**: Coding tasks, generating and debugging complex code, and competitive performance in high school math.\n- **Not good at**: Less effective in extensive reasoning tasks compared to larger models like o1.\n- **Relevant info**: Costs 80% less than o1-preview; competitive coding Elo rating at 1650.\n- **Model variant**: Yes, it's a smaller, more efficient version of the o1 model series."
+    },
+    {
+      "name": "OpenAI: o1-mini",
+      "id": "openai/o1-mini",
+      "prompt_cost": "$3",
+      "completion_cost": "$12",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'OpenAI: o1-mini' has an output speed of approximately 68.8 tokens per second.",
+      "description": "- **Strengths**: Excels at math and coding tasks; cost-effective (80% cheaper than o1-preview).\n- **Weaknesses**: May not perform as well in complex research or analysis compared to larger models.\n- **Capabilities**: Optimized for STEM reasoning; solid performance in benchmarks (AIME, Codeforces).\n- **Model Variant**: Yes, it is a smaller and faster variant of the o1 model series."
+    },
+    {
+      "name": "OpenAI: o1-preview (2024-09-12)",
+      "id": "openai/o1-preview-2024-09-12",
+      "prompt_cost": "$15",
+      "completion_cost": "$60",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second performance data was found for the AI model 'OpenAI: o1-preview (2024-09-12)'.",
+      "description": "- **Strengths:** Excels in complex reasoning tasks; performs well in coding and analytical problem-solving; often achieves human-level accuracy.\n- **Weaknesses:** Struggles with creative writing tasks compared to models like GPT-4o and Sonnet 3.5.\n- **Additional Info:** First in a series of reasoning models; designed to compute answers thoroughly before responding; includes safety features.\n- **Model Variation:** Not a direct variant but part of the new o1 model series, which includes o1-mini for coding tasks."
+    },
+    {
+      "name": "OpenAI: o1-preview",
+      "id": "openai/o1-preview",
+      "prompt_cost": "$15",
+      "completion_cost": "$60",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The OpenAI o1-preview model has a median output speed of 32 tokens per second.",
+      "description": "- **What it's good at**: Complex reasoning tasks, coding, math reasoning, and comparative analysis.\n- **What it's not good at**: May struggle with simpler tasks compared to faster, specialized models.\n- **Other relevant information**: Uses an internal thought process for deeper understanding; available in two versions (o1-preview and o1-mini).\n- **Variant status**: It is a new series from OpenAI, derived from the existing GPT model series."
+    },
+    {
+      "name": "Mistral: Pixtral 12B",
+      "id": "mistralai/pixtral-12b",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "Specific tokens per second performance data for the Pixtral 12B model was not found.",
+      "description": "- **Strengths**: Excels in multimodal reasoning (text and image processing), strong instruction-following, coding, and math capabilities.\n- **Weaknesses**: May not outperform specialized models in narrow tasks solely focused on text or image processing.\n- **Additional Info**: Comprises 12 billion parameters, engineered as a drop-in replacement for Mistral Nemo 12B, with state-of-the-art performance in multimodal tasks.\n- **Model Variant**: Yes, it builds upon Mistral Nemo 12B, enhancing it with image processing features."
+    },
+    {
+      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "prompt_cost": "$2.375",
+      "completion_cost": "$9.5",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the AI model 'Cohere: Command R+ (08-2024)' was found.",
+      "description": "- **Good at**: Conversational interaction, long-context tasks, and enterprise-grade workloads.\n- **Not good at**: Specific niche tasks that require highly specialized knowledge outside its training.\n- **Other relevant info**: RAG-optimized, designed for real-world applications, supports multi-step tool use, and trained on diverse text.\n- **Variant**: Yes, it is an updated version of the existing Command R model."
+    },
+    {
+      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "prompt_cost": "$0.1425",
+      "completion_cost": "$0.57",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The performance of the AI model 'Cohere: Command R (08-2024)' in tokens per second is not specifically reported.",
+      "description": "- **Good at:** Multilingual generation, reasoning, summarization, question answering, and complex multi-step tasks (RAG).\n- **Not good at:** Specific niche tasks not included in training datasets; may struggle with less common languages or topics.\n- **Relevant info:** 32 billion parameters; open weights; improved performance compared to previous models.\n- **Variant of:** An updated model (Command R) with enhancements over previous versions."
+    },
+    {
+      "name": "Qwen2-VL 7B Instruct",
+      "id": "qwen/qwen-2-vl-7b-instruct",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Qwen2-VL 7B Instruct' model was found.",
+      "description": "- **Good at**: Multimodal tasks (text, images, video), video-based Q&A, processing over 20-minute videos.\n- **Not good at**: Specific OCR tasks (e.g., Chinese), potentially slower in high pixel-count scenarios.\n- **Relevant info**: Part of the Qwen2 series, instruction-tuned, and utilizes advanced Rotary Position Embedding (M-ROPE).\n- **Model variant**: Yes, it is an instruction-tuned variant of the Qwen2 architecture."
+    },
+    {
+      "name": "Google: Gemini Flash 8B 1.5 Experimental",
+      "id": "google/gemini-flash-1.5-8b-exp",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "1,000,000",
+      "moderation": "None",
+      "speed": "The AI model 'Google: Gemini Flash 8B 1.5 Experimental' has a median output speed of 284 tokens per second.",
+      "description": "- **Good at:** Fast and efficient for lower intelligence tasks, high-volume applications, and cost-effective scaling.\n- **Not good at:** Complex tasks requiring deep understanding or nuanced reasoning.\n- **Other info:** Experimental version offering significant performance improvement in text and multimodal use cases.\n- **Model variant:** A smaller, faster variant of the Gemini 1.5 Flash model."
+    },
+    {
+      "name": "Llama 3.1 Euryale 70B v2.2",
+      "id": "sao10k/l3.1-euryale-70b",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Llama 3.1 Euryale 70B v2.2 outputs around 250 tokens per second on Groq.",
+      "description": "- **Strengths:** Creative roleplay, advanced language understanding, managing large datasets with 70 billion parameters.\n- **Weaknesses:** May struggle with precise arithmetic and very specialized knowledge.\n- **Key Features:** Latest in the Llama series, successor to Euryale L3 70B v2.1, optimized for creative applications.\n- **Model Type:** Variant of existing Llama models (specifically, Llama 3.1)."
+    },
+    {
+      "name": "Google: Gemini Flash 1.5 Experimental",
+      "id": "google/gemini-flash-1.5-exp",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "1,000,000",
+      "moderation": "None",
+      "speed": "The performance of the Google: Gemini Flash 1.5 Experimental model is reported to be 60 tokens per second.",
+      "description": "- **Good at**: Multimodal processing (text, code, audio, video, images), high-frequency tasks, and long context understanding.\n- **Not good at**: Not intended for production use (experimental status), performance may vary.\n- **Other info**: Fast response times, cost-effective, handles complex reasoning across multiple modalities.\n- **Model variant**: A variant of the existing Gemini model family, specifically optimized for speed (Gemini 1.5)."
+    },
+    {
+      "name": "AI21: Jamba 1.5 Large",
+      "id": "ai21/jamba-1-5-large",
+      "prompt_cost": "$2",
+      "completion_cost": "$8",
+      "context_length": "256,000",
+      "moderation": "None",
+      "speed": "The performance data for the AI21 Jamba 1.5 Large model does not include specific tokens per second metrics.",
+      "description": "- **Good at**: Generating content, summarizing documents, extracting insights, supporting instruction-following tasks, and multilingual capabilities (e.g., English, Spanish).\n- **Not good at**: Not specifically noted for limited training in niche domains or highly technical fields.\n- **Other Information**: Features a hybrid SSM-Transformer architecture, optimized for long-context processing, and offers fast inference (up to 2.5X faster than similar models).\n- **Model Variant**: A variant of the Jamba architecture, superior to previous models like Llama 3.1."
+    },
+    {
+      "name": "AI21: Jamba 1.5 Mini",
+      "id": "ai21/jamba-1-5-mini",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.4",
+      "context_length": "256,000",
+      "moderation": "None",
+      "speed": "The AI21 Jamba 1.5 Mini model achieves over 150 tokens per second based on performance tests.",
+      "description": "- **Good at**: Zero-shot instruction-following, handling long contexts, multilingual support (English, Spanish, French, Portuguese).\n- **Not good at**: Potential limitations in highly specialized tasks or nuanced understanding compared to larger models.\n- **Capabilities**: 256K token context window, industry-leading benchmarks, fast inference (up to 2.5X faster than peers).\n- **Variant**: A variant of the Jamba 1.5 family, specifically designed for efficiency and performance."
+    },
+    {
+      "name": "Phi-3.5 Mini 128K Instruct",
+      "id": "microsoft/phi-3.5-mini-128k-instruct",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "No specific data on tokens per second for the Phi-3.5 Mini 128K Instruct model was found.",
+      "description": "- **Strengths**: Excels in summarizing long documents, answering questions based on lengthy texts, and supporting a context length of 128K tokens.\n- **Weaknesses**: May struggle with highly specialized technical content and detailed fine-tuning beyond general instructions.\n- **Other Info**: Has 3.8B parameters, instruction-tuned for better alignment with human preferences, and supports multiple languages.\n- **Model Variant**: A variant of the Phi-3 series, specifically designed for long contextual tasks and instructions."
+    },
+    {
+      "name": "Nous: Hermes 3 70B Instruct",
+      "id": "nousresearch/hermes-3-llama-3.1-70b",
+      "prompt_cost": "$0.4",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "No specific data regarding tokens per second for the 'Nous: Hermes 3 70B Instruct' model was found.",
+      "description": "- **What the model is good at:** Advanced long-term context retention, multi-turn conversation, roleplaying, controllability, and function calling.\n- **What the model is not good at:** May struggle with highly specific or niche tasks outside its training data.\n- **Other relevant info:** Fine-tuned from Llama 3.1; designed for high steerability and personalization; superior performance compared to prior models.\n- **Variant of existing model:** Yes, it's a fine-tuned variant of the Llama 3.1 model."
+    },
+    {
+      "name": "Nous: Hermes 3 405B Instruct (free)",
+      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The 'Nous: Hermes 3 405B Instruct' model can generate text at a rate of 100-200 tokens per second on a single GPU.",
+      "description": "- **What it's good at**: Strong instruct-following, advanced reasoning, multi-turn conversation, and long-term context retention.\n- **What it's not good at**: Still developing complex role-playing capabilities.\n- **Other relevant info**: Fine-tuned from Llama-3.1 405B; performs well on public benchmarks.\n- **Variant of existing model**: Yes, it's a fine-tuned version of Llama-3.1 405B."
+    },
+    {
+      "name": "Nous: Hermes 3 405B Instruct",
+      "id": "nousresearch/hermes-3-llama-3.1-405b",
+      "prompt_cost": "$1.79",
+      "completion_cost": "$2.49",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The AI model 'Nous: Hermes 3 405B Instruct' generates text at a rate of 100-200 tokens per second on a single GPU.",
+      "description": "- **Strengths**: Excellent instruction-following, advanced reasoning, long-term context retention, multi-turn conversation, and roleplaying.\n- **Weaknesses**: Some role-playing capabilities still need improvement.\n- **Additional Info**: Fine-tuned from Llama 3.1 405B; highly steerable and designed for various complex tasks.\n- **Model Variant**: Yes, it's a fine-tuned version of Llama 3.1 405B."
+    },
+    {
+      "name": "Nous: Hermes 3 405B Instruct (extended)",
+      "id": "nousresearch/hermes-3-llama-3.1-405b:extended",
+      "prompt_cost": "$4.5",
+      "completion_cost": "$4.5",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The AI model 'Nous: Hermes 3 405B Instruct (extended)' generates text at a rate of 100-200 tokens per second on a single GPU.",
+      "description": "- **Strengths**: Excellent instruct-following, advanced reasoning, long-term context retention, and improved roleplaying abilities.\n- **Weaknesses**: May still struggle with complex role-playing compared to expectations.\n- **Additional Info**: Built on Llama 3.1, highly steerable, and optimized for adaptive responses.\n- **Model Variant**: Yes, it's a fine-tuned variant of the Llama 3.1 405B model."
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 405B Online",
+      "id": "perplexity/llama-3.1-sonar-huge-128k-online",
+      "prompt_cost": "$5",
+      "completion_cost": "$5",
+      "context_length": "127,072",
+      "moderation": "None",
+      "speed": "The performance of the AI model 'Perplexity: Llama 3.1 Sonar 405B Online' in tokens per second is not explicitly mentioned.",
+      "description": "- **Good at**: Efficiently handling complex search tasks and deep reasoning with nuanced outputs.\n- **Not good at**: Limited transparency in licensing and potential risks in training dataset usage.\n- **Additional info**: Features 405 billion parameters and a 128K token context length, offering state-of-the-art performance.\n- **Model variant**: A variant of the Llama 3.1 model family, specifically the Sonar Huge model optimized for search."
+    },
+    {
+      "name": "OpenAI: ChatGPT-4o",
+      "id": "openai/chatgpt-4o-latest",
+      "prompt_cost": "$5",
+      "completion_cost": "$15",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'OpenAI: ChatGPT-4o' has a performance of 63.32 tokens per second.",
+      "description": "- **Strengths**: Excels in understanding and generating text, audio, and visual content; real-time reasoning across modalities.\n- **Weaknesses**: May still struggle with highly specialized knowledge or complex emotional nuances.\n- **Capabilities**: Fast performance, integrates voice and vision capabilities, suitable for various applications.\n- **Variant**: It is an updated variant of the GPT-4 model."
+    },
+    {
+      "name": "Llama 3 8B Lunaris",
+      "id": "sao10k/l3-lunaris-8b",
+      "prompt_cost": "$2",
+      "completion_cost": "$2",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The performance of the Llama 3 8B Lunaris model is reported at 1,850 output tokens per second.",
+      "description": "- **Good at**: Open-ended dialogue, roleplaying, creative writing, coherent responses.\n- **Not good at**: Complex logical reasoning tasks and highly structured data interpretation.\n- **Other info**: A generalist model merging various strengths; aims to balance creativity and logic; variant of Llama 3.\n- **Development**: Created by Sao10K; improved version compared to Stheno v3.2."
+    },
+    {
+      "name": "Mistral Nemo 12B Starcannon",
+      "id": "aetherwiing/mn-starcannon-12b",
+      "prompt_cost": "$2",
+      "completion_cost": "$2",
+      "context_length": "12,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for Mistral NeMo 12B Starcannon was found.",
+      "description": "- **Good at**: Complex reasoning, world knowledge, coding accuracy, and multilingual conversations.\n- **Not good at**: Potentially less effective for niche or very specialized tasks outside general domains.\n- **Other**: 12 billion parameters, 128k token context window, open-source under Apache 2.0, co-developed with NVIDIA.\n- **Variant**: Not a variant; it\u2019s a standalone model developed in collaboration with NVIDIA."
+    },
+    {
+      "name": "OpenAI: GPT-4o (2024-08-06)",
+      "id": "openai/gpt-4o-2024-08-06",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The performance of the AI model 'OpenAI: GPT-4o (2024-08-06)' is reported to have a median output speed of 121 tokens per second.",
+      "description": "- **Strengths**: Excels in generating structured outputs; supports multimodal inputs (text and images); optimized for developer use.\n- **Weaknesses**: Struggles with complex reasoning tasks compared to its predecessors; slower response times than earlier versions.\n- **Relevant Info**: Introduced JSON structured outputs feature; available on Azure OpenAI Service; offers cost savings for developers.\n- **Model Variant**: This version is an iteration of the GPT-4o model series, enhancing previous capabilities."
+    },
+    {
+      "name": "Meta: Llama 3.1 405B (base)",
+      "id": "meta-llama/llama-3.1-405b",
+      "prompt_cost": "$2",
+      "completion_cost": "$2",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The Meta Llama 3.1 405B model has achieved a performance milestone of 114 tokens per second, as verified by Artificial Analysis.",
+      "description": "- **What it's good at**: General knowledge, steerability, math, tool use, multilingual translation, long context handling (128k).\n- **What it's not good at**: May struggle with highly specialized or niche topics.\n- **Other relevant info**: Largest open-source model (405B parameters), optimized for production use.\n- **Model variant**: Yes, it's part of the Llama 3.1 series, which includes other model sizes (8B, 70B)."
+    },
+    {
+      "name": "Mistral Nemo 12B Celeste",
+      "id": "nothingiisreal/mn-celeste-12b",
+      "prompt_cost": "$1.5",
+      "completion_cost": "$1.5",
+      "context_length": "32,000",
+      "moderation": "None",
+      "speed": "The Mistral NeMo 12B model has a performance output speed of 120 tokens per second.",
+      "description": "- **Strengths**: Excels in chatbots, multilingual tasks, coding, and summarization; state-of-the-art reasoning and coding accuracy.\n- **Weaknesses**: May struggle with highly specialized or niche knowledge areas.\n- **Additional Info**: 12 billion parameters, supports a context window of up to 128k tokens, open-source under Apache 2.0 license.\n- **Variant**: Developed in collaboration with NVIDIA; standard architecture for ease of use."
+    },
+    {
+      "name": "Google: Gemini Pro 1.5 Experimental",
+      "id": "google/gemini-pro-1.5-exp",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "1,000,000",
+      "moderation": "None",
+      "speed": "The AI model 'Google: Gemini Pro 1.5 Experimental' has a performance output speed of 65.5 tokens per second.",
+      "description": "- **Strengths**: Excellent at long-context understanding, reasoning tasks, and multimodal processing with up to 1 million tokens.\n- **Weaknesses**: Being an experimental model, stability and support may vary; not guaranteed to progress to a stable version.\n- **Capabilities**: Achieves comparable quality to Gemini 1.0 Ultra while using less compute; designed for developers with applications in Google AI Studio.\n- **Model Variant**: A variant within the Gemini family, specifically the 1.5 series."
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 70B Online",
+      "id": "perplexity/llama-3.1-sonar-large-128k-online",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "127,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data was found for the \"Perplexity: Llama 3.1 Sonar 70B Online\" model.",
+      "description": "- **Good at**: Delivering helpful, up-to-date, and factual responses; optimized for extensive natural language tasks and fluid conversations.\n- **Not good at**: Handling highly specialized queries outside its training scope; may struggle with nuanced human emotions.\n- **Other information**: Built on the advanced Llama 3.1 architecture; features 70 billion parameters; known for cost-efficiency and speed.\n- **Model variant**: Yes, it's a variant of the Llama 3.1 model collection."
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 70B",
+      "id": "perplexity/llama-3.1-sonar-large-128k-chat",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The specific tokens per second performance for the 'Perplexity: Llama 3.1 Sonar 70B' model was not found in the available data.",
+      "description": "- **Good at**: Delivering up-to-date and factual responses; cost-efficient performance; handling various tasks effectively.\n- **Not good at**: Extremely resource-intensive tasks compared to larger models; may struggle with highly specialized niche queries.\n- **Relevant info**: Part of the Llama 3.1 family; optimized for speed and efficiency; suitable for online applications.\n- **Variant of existing model**: Yes, it is based on the Llama 3.1 architecture."
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 8B Online",
+      "id": "perplexity/llama-3.1-sonar-small-128k-online",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "127,072",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the 'Perplexity: Llama 3.1 Sonar 8B Online' model was found.",
+      "description": "- **Strengths**: Excels in cost-efficiency, speed, and performance; provides up-to-date and factual responses; well-suited for real-time internet access.\n- **Weaknesses**: May struggle with complex reasoning tasks compared to larger models; less effective in highly specialized domains.\n- **Other Info**: Part of the Llama 3.1 model family; optimized for chat and conversational applications.\n- **Variant**: Yes, it's a variant built on Meta's Llama 3.1 architecture."
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 8B",
+      "id": "perplexity/llama-3.1-sonar-small-128k-chat",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The performance of 'Perplexity: Llama 3.1 Sonar 8B' is reported at a maximum throughput of 8.01 tokens per second.",
+      "description": "- **Good at**: Providing accurate, real-time information; advanced language processing and contextual understanding.\n- **Not good at**: Potentially struggling with deep reasoning tasks and complex mathematical problems.\n- **Other relevant information**: Cost-efficient, fast performance; available in multiple sizes (8B, 70B, 405B); supports a 128K token context.\n- **Model variant**: A variant of the Llama 3.1 model family, specifically the Sonar 8B edition."
+    },
+    {
+      "name": "Meta: Llama 3.1 70B Instruct (free)",
+      "id": "meta-llama/llama-3.1-70b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Meta: Llama 3.1 70B Instruct model achieves a performance of approximately 250 tokens per second.",
+      "description": "- **Strengths**: Excellent at conversational AI, contextual understanding, and multilingual dialogue.\n- **Weaknesses**: May struggle with niche or highly specialized topics.\n- **Capabilities**: Instruction-tuned model optimized for chat, outperforming many open-source models.\n- **Variant**: It is an instruction-tuned version of the Llama 3 family, specifically designed for improved user interaction."
+    },
+    {
+      "name": "Meta: Llama 3.1 70B Instruct",
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The Meta: Llama 3.1 70B Instruct model outputs approximately 250 tokens per second.",
+      "description": "- **Good at:** Instruction-following, multilingual dialogue tasks, generating coherent responses, outperforming many rivals on benchmarks.\n- **Not good at:** Content accuracy may sometimes be misaligned with human preferences.\n- **Other info:** Part of the Llama 3.1 family, available in various sizes (8B, 70B, 405B), optimized for efficiency.\n- **Variant:** Yes, it's a variant within the Llama model series, specifically the instruction-tuned version."
+    },
+    {
+      "name": "Meta: Llama 3.1 8B Instruct (free)",
+      "id": "meta-llama/llama-3.1-8b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The performance of Meta's Llama 3.1 8B Instruct is reported to reach up to 400 tokens per second under optimized conditions.",
+      "description": "- **Good at**: Multilingual dialogue, language understanding, reasoning, text generation.\n- **Not good at**: Handling highly complex tasks outside its training; may produce biased or harmful outputs.\n- **Relevant info**: Part of the Llama 3.1 family, optimized for instruction-following tasks, performs well on industry benchmarks.\n- **Variant**: Yes, it's a specific variant of the Llama 3.1 collection featuring 8 billion parameters."
+    },
+    {
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The performance of the Meta: Llama 3.1 8B Instruct model is reported to be around 3 to 4 tokens per second when run on a V100 GPU.",
+      "description": "- **Good at**: Multilingual dialogue, instruction-following tasks, outperforming many benchmarks in language understanding.\n- **Not good at**: Highly specialized tasks outside common dialogue use cases; may struggle with nuanced contexts in some scenarios.\n- **Relevant info**: Part of the Llama 3.1 collection, 8.03 billion parameters, designed for open-source applications.\n- **Model variant**: Yes, it's an instruction-tuned variant within the Llama 3.1 series."
+    },
+    {
+      "name": "Meta: Llama 3.1 405B Instruct (free)",
+      "id": "meta-llama/llama-3.1-405b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,000",
+      "moderation": "None",
+      "speed": "The Meta: Llama 3.1 405B Instruct model has a performance of 114 tokens per second.",
+      "description": "- **Strengths**: Excels in multilingual dialogue, general knowledge, math, tool use, and translation; supports a large context length (128k).\n- **Weaknesses**: May struggle with nuanced subjective interpretations or very specific niche domain queries.\n- **Capabilities**: Instruction-tuned for optimized production use; largest open-source LLM with 405B parameters.\n- **Variant Information**: It's a variant of the Llama 3.1 base model, specifically fine-tuned for instruction tasks."
+    },
+    {
+      "name": "Meta: Llama 3.1 405B Instruct",
+      "id": "meta-llama/llama-3.1-405b-instruct",
+      "prompt_cost": "$1.79",
+      "completion_cost": "$1.79",
+      "context_length": "131,072",
+      "moderation": "None",
+      "speed": "The AI model 'Meta: Llama 3.1 405B Instruct' has a verified performance of 114 tokens per second.",
+      "description": "- **Strengths**: Excels in multilingual dialogue, general knowledge, reasoning, steerability, math, and tool use.\n- **Weaknesses**: May produce inaccurate or biased outputs; struggles with domain-specific tasks.\n- **Key Features**: Largest open-source LLM with 405 billion parameters; supports a 128k context length.\n- **Model Type**: Variant of the Llama 3 collection, specifically instruction-tuned for high-quality responses."
+    },
+    {
+      "name": "Mistral: Codestral Mamba",
+      "id": "mistralai/codestral-mamba",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.25",
+      "context_length": "256,000",
+      "moderation": "None",
+      "speed": "The exact tokens per second performance for the Codestral Mamba model has not been specified.",
+      "description": "- **Good at**: Code generation, automating code completion, and extended context usage (256k tokens).\n- **Not good at**: Tasks outside coding, lacking general LLM capabilities.\n- **Relevant info**: 7 billion parameters, utilizes Mamba architecture for efficiency; competitive within its size category.\n- **Variant**: A specialized version of the Mistral model focused on coding tasks."
+    },
+    {
+      "name": "Mistral: Mistral Nemo",
+      "id": "mistralai/mistral-nemo",
+      "prompt_cost": "$0.13",
+      "completion_cost": "$0.13",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The performance of the AI model 'Mistral NeMo' is reported at 120 tokens per second.",
+      "description": "- **Good at:** Multilingual tasks, coding, summarization, and reasoning.\n- **Not good at:** Tasks requiring deep reasoning or specialized knowledge beyond its training data.\n- **Relevant information:** 12B parameters, 128k token context length, supports multiple languages; released under Apache 2.0.\n- **Variant:** Yes, built in collaboration with NVIDIA, based on standard architecture for ease of use."
+    },
+    {
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "prompt_cost": "$0.15",
+      "completion_cost": "$0.6",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The 'OpenAI: GPT-4o-mini' model has a median output speed of 79 tokens per second.",
+      "description": "- **Good at**: Advanced language processing, multimodal inputs (text and vision), and cost-efficient performance.\n- **Not good at**: Complex reasoning compared to larger models; may have limitations in handling extensive contexts due to its size.\n- **Relevant info**: Lightweight variant of GPT-4o; supports API access; low token usage cost; released on July 18, 2024.\n- **Variant**: Yes, it is a distilled version of the GPT-4o model."
+    },
+    {
+      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini",
+      "prompt_cost": "$0.15",
+      "completion_cost": "$0.6",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'OpenAI: GPT-4o-mini' has a median output speed of 79 tokens per second.",
+      "description": "- **Strengths**: Excels in cost-efficiency, low latency, broad task handling (text, images, future audio/video).\n- **Weaknesses**: Less accurate than larger models; may struggle with intricate tasks requiring precise detail.\n- **Additional Info**: Supports a large 128K token context; designed for real-time applications.\n- **Variant**: A smaller, more efficient iteration of GPT-4 and GPT-4o."
+    },
+    {
+      "name": "Qwen 2 7B Instruct (free)",
+      "id": "qwen/qwen-2-7b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Qwen 2 7B Instruct model was found.",
+      "description": "- **Good At:** Language understanding, generation, multilingual capabilities, complex reasoning, and tool/function calling.\n- **Not Good At:** May struggle with highly specialized domain knowledge requiring extensive training data.\n- **Other Info:** Handles up to 131,072 tokens, suitable for long texts; part of the Qwen2 series with 7 billion parameters.\n- **Model Variant:** Yes, it's an instruction-tuned variant of the Qwen2 series."
+    },
+    {
+      "name": "Qwen 2 7B Instruct",
+      "id": "qwen/qwen-2-7b-instruct",
+      "prompt_cost": "$0.054",
+      "completion_cost": "$0.054",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Qwen 2 7B Instruct' model was found.",
+      "description": "- **Good at:** Language understanding, generation, multilingual processing, coding, mathematics, reasoning; handles long text inputs (up to 131,072 tokens).\n- **Not good at:** May struggle with highly specialized domain knowledge or nuanced tasks requiring contextual understanding beyond training data.\n- **Relevant info:** 7 billion parameters; instruction-tuned and transformer-based architecture; competitive with recent models like Llama-3-8B-Instruct.\n- **Variant:** Part of the Qwen2 series, specifically instruction-tuned for enhanced performance."
+    },
+    {
+      "name": "Google: Gemma 2 27B",
+      "id": "google/gemma-2-27b-it",
+      "prompt_cost": "$0.27",
+      "completion_cost": "$0.27",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Google Gemma 2 27B model has a median output speed of 70 tokens per second.",
+      "description": "- **Strengths**: Excels in engaging real-world conversations; class-leading performance in its size category; optimized for dialogue applications.\n- **Weaknesses**: Potential biases or gaps due to training data limitations; may struggle with highly specialized or niche topics.\n- **Additional Info**: Trained on 13 trillion tokens; built on technology from Google's Gemini models; available in pre-trained and instruction-tuned variants.\n- **Variant Information**: Gemma 2 is an updated version of the Gemma model family, offering better performance than its predecessors."
+    },
+    {
+      "name": "Magnum 72B",
+      "id": "alpindale/magnum-72b",
+      "prompt_cost": "$3.75",
+      "completion_cost": "$4.5",
+      "context_length": "16,384",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the Magnum 72B model was found.",
+      "description": "- **Good at**: Producing natural, contextual responses for chatbots and content generation; replicating prose quality of Claude 3 models (Opus, Sonnet).\n- **Not good at**: Handling complex logical reasoning or specialized technical inquiries.\n- **Other info**: Fine-tuned on Qwen2 72B with 55 million tokens of curated roleplay data.\n- **Variant**: Yes, it\u2019s a fine-tuned variant based on the Qwen2 72B model."
+    },
+    {
+      "name": "Nous: Hermes 2 Theta 8B",
+      "id": "nousresearch/hermes-2-theta-llama-3-8b",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "16,384",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the AI model 'Nous: Hermes 2 Theta 8B' was found.",
+      "description": "- **Good at:** Executing function calls, generating JSON output, demonstrating metacognitive abilities, and writing in a distinctive style.\n- **Not good at:** Complex reasoning tasks (potential limitations in deep logical inference).\n- **Other relevant info:** First experimental merged model combining Hermes 2 Pro and Meta's Llama-3 Instruct; designed for efficiency and low hallucination rates.\n- **Variant info:** Yes, it is a merged and reinforced variant of existing models."
+    },
+    {
+      "name": "Google: Gemma 2 9B (free)",
+      "id": "google/gemma-2-9b-it:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "Specific performance data in tokens per second for the AI model 'Google: Gemma 2 9B (free)' is not found.",
+      "description": "- **Good at**: Text generation, conversation, and performance efficiency in inference.\n- **Not good at**: Higher-level mathematical problems and complex reasoning tasks.\n- **Relevant info**: Built on Gemini research, has variants (2B, 9B, 27B), and includes safety advancements.\n- **Model variant**: Yes, it\u2019s a variant of the Gemma model family developed from Gemini models."
+    },
+    {
+      "name": "Google: Gemma 2 9B",
+      "id": "google/gemma-2-9b-it",
+      "prompt_cost": "$0.06",
+      "completion_cost": "$0.06",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Google: Gemma 2 9B' model was found.",
+      "description": "- **Good At**: Text-to-text tasks, efficient inference, high performance in conversational contexts.\n- **Not Good At**: Handling highly specialized domain knowledge, complex reasoning beyond typical text interactions.\n- **Relevant Info**: Part of the Gemma model family, utilizing the same technology as Gemini models, available in multiple sizes (2B, 9B, 27B).\n- **Model Variant**: Variants include pre-trained and instruction-tuned for different applications."
+    },
+    {
+      "name": "AI21: Jamba Instruct",
+      "id": "ai21/jamba-instruct",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.7",
+      "context_length": "256,000",
+      "moderation": "None",
+      "speed": "The performance of the AI21: Jamba Instruct model includes generating over 150 output tokens per second in specific tests.",
+      "description": "- **Good at:** Long context handling (up to 256K tokens), processing extensive information efficiently.\n- **Not good at:** Lacks safety moderation mechanisms; requires guardrails for safe use.\n- **Relevant info:** Hybrid Mamba-Transformer architecture improves performance; first production-grade Mamba model.\n- **Variant of existing model:** Instruction-tuned version of the base Jamba model."
+    },
+    {
+      "name": "Anthropic: Claude 3.5 Sonnet",
+      "id": "anthropic/claude-3.5-sonnet",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'Anthropic: Claude 3.5 Sonnet' achieves an output speed of 59 tokens per second.",
+      "description": "- **Good at**: Language tasks, reasoning, visual question answering, and coding.\n- **Not good at**: Slightly lower accuracy on science diagrams and chart Q&A compared to competitors.\n- **Other info**: Offers high performance with a focus on speed and cost-efficiency; available via various platforms.\n- **Model variant**: This is part of the Claude model family, enhancing capabilities from its predecessors."
+    },
+    {
+      "name": "Anthropic: Claude 3.5 Sonnet (self-moderated)",
+      "id": "anthropic/claude-3.5-sonnet:beta",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "None",
+      "speed": "The AI model 'Anthropic: Claude 3.5 Sonnet' has an output speed of 59 tokens per second.",
+      "description": "- **Good at:** Language tasks, reasoning, coding, visual question answering.\n- **Not good at:** Performance on complex science diagrams and charts (lower than competitors).\n- **Other info:** Prioritizes safety and user alignment; high accuracy above 90% in many tasks; available via various platforms.\n- **Model variant:** This is an enhancement over earlier Claude models (e.g., Haiku, Opus)."
+    },
+    {
+      "name": "Llama 3 Euryale 70B v2.1",
+      "id": "sao10k/l3-euryale-70b",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Llama 3 Euryale 70B v2.1' model was found.",
+      "description": "- **Strengths**: Excellent for creative roleplay, improved prompt adherence, spatial awareness, and unique formatting.\n- **Weaknesses**: May struggle with factual accuracy or strict guideline adherence in non-roleplay contexts.\n- **Relevant Info**: Known for inventiveness and adaptability; recommended temperature settings for optimal results.\n- **Model Variant**: It is a variant of the Llama 3 series, specifically optimized for creative tasks."
+    },
+    {
+      "name": "Dolphin 2.9.2 Mixtral 8x22B \ud83d\udc2c",
+      "id": "cognitivecomputations/dolphin-mixtral-8x22b",
+      "prompt_cost": "$0.9",
+      "completion_cost": "$0.9",
+      "context_length": "65,536",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Dolphin 2.9.2 Mixtral 8x22B \ud83d\udc2c' model was found.",
+      "description": "- **Strengths**: Excellent at instruction-following, conversational tasks, and coding.\n- **Weaknesses**: Could struggle with nuanced contextual understanding in complex dialogues.\n- **Relevant Info**: 64K context length; fine-tuned with 16K sequence; uncensored; based on Mixtral 8x22B.\n- **Model Variant**: Yes, it is a fine-tuned version of Dolphin Mixtral 8x7B."
+    },
+    {
+      "name": "Qwen 2 72B Instruct",
+      "id": "qwen/qwen-2-72b-instruct",
+      "prompt_cost": "$0.34",
+      "completion_cost": "$0.39",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The AI model 'Qwen 2 72B Instruct' achieves an average performance of 17.83 tokens per second.",
+      "description": "- **What it's good at:** Strong performance in diverse tasks, including mathematical capabilities, scoring well on benchmarks like MMLU and GSM8K.\n- **What it's not good at:** May struggle with very complex reasoning compared to smaller, highly specialized models in specific domains.\n- **Other info:** Instruction-tuned with 72 billion parameters; designed for versatility.\n- **Model variant:** It is an instruction-tuned variant of the Qwen2 model series."
+    },
+    {
+      "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+      "id": "nousresearch/hermes-2-pro-llama-3-8b",
+      "prompt_cost": "$0.14",
+      "completion_cost": "$0.14",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific performance data in tokens per second for 'NousResearch: Hermes 2 Pro - Llama-3 8B' was found.",
+      "description": "- **Strengths**: Excels in conversational tasks, function calling, and structured JSON outputs. High accuracy on benchmarks (e.g., GPT4All, TruthfulQA).\n- **Weaknesses**: Limited performance in complex reasoning and abstract problem-solving tasks.\n- **Relevant Info**: Upgraded from Nous Hermes 2; utilizes an improved dataset and features for enhanced steerability and multi-turn dialogue.\n- **Model Variant**: Yes, it's a retrained version of Nous Hermes 2, integrating functionalities from the Llama-3 architecture."
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct v0.3",
+      "id": "mistralai/mistral-7b-instruct-v0.3",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The Mistral 7B Instruct v0.3 model demonstrates a throughput of about 800 tokens per second.",
+      "description": "- **What it's good at:** Instructive tasks, chatbots, text generation, function calling; offers 32k context window.\n- **What it's not good at:** Lacks moderation mechanisms; may produce inappropriate outputs.\n- **Other relevant info:** Instruct fine-tuned from Mistral 7B; optimized for human-like text generation.\n- **Variant:** Yes, it's a variant of the Mistral 7B model."
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct (free)",
+      "id": "mistralai/mistral-7b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Mistral 7B Instruct model demonstrates a strong performance with an average throughput of about 800 tokens per second.",
+      "description": "- **Good at**: Instruction-based tasks, real-time applications, generating human-like text.\n- **Not good at**: Lacking moderation mechanisms; may not handle sensitive content appropriately.\n- **Other info**: 7-billion parameters; efficient and high performance; fine-tuned from Mistral 7B generative model.\n- **Variant**: Yes, derived from the original Mistral 7B model."
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct",
+      "id": "mistralai/mistral-7b-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The Mistral 7B Instruct model demonstrates an impressive throughput of about 800 tokens per second.",
+      "description": "- **Good at**: Instruction-following tasks, real-time applications, generalization on instruction datasets.\n- **Not good at**: Heavy computational tasks compared to larger models, may struggle with highly specialized knowledge.\n- **Relevant info**: 7 billion parameters, fine-tuned for instruction comprehension, open-sourced.\n- **Model variant**: Yes, it is a fine-tuned version of the base Mistral 7B model."
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct (nitro)",
+      "id": "mistralai/mistral-7b-instruct:nitro",
+      "prompt_cost": "$0.07",
+      "completion_cost": "$0.07",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "There is no specific tokens per second performance data found for the 'Mistral: Mistral 7B Instruct (nitro)' model.",
+      "description": "- **Strengths**: Excels at code-related tasks, surpasses Llama 2 13B in benchmarks, optimized for speed and context length.\n- **Weaknesses**: May struggle with highly specialized or ambiguous prompts.\n- **Capabilities**: 7.3 billion parameters, fine-tunable for diverse applications; includes optimization for user-friendliness.\n- **Variants**: Yes, it's an instruct fine-tuned version of the original Mistral 7B model."
+    },
+    {
+      "name": "Phi-3 Mini 128K Instruct (free)",
+      "id": "microsoft/phi-3-mini-128k-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Phi-3 Mini 128K Instruct model achieves a performance of more than 12 tokens per second.",
+      "description": "- **Strengths**: Excellent for common sense reasoning, language understanding, mathematics, coding, and logical reasoning.\n- **Weaknesses**: May struggle with highly specialized or niche topics due to general training data.\n- **Other Info**: 3.8 billion parameters; supports a context length of up to 128K tokens; designed for memory and latency-constrained use.\n- **Model Variant**: Yes, it is a variant of the Phi-3 model family, specifically the Mini version."
+    },
+    {
+      "name": "Phi-3 Mini 128K Instruct",
+      "id": "microsoft/phi-3-mini-128k-instruct",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The Phi-3 Mini 128K Instruct model generates over 12 tokens per second.",
+      "description": "- **Good at**: High-quality text generation, reasoning tasks, coding, and mathematical problem-solving.\n- **Not good at**: Handling highly complex context or long-form narratives due to model size limitations.\n- **Relevant info**: 3.8 billion parameters; supports up to 128K context length; efficient for deployment on mobile and IoT devices.\n- **Model variant**: Yes, it's a variant within the Phi-3 family, alongside others like Phi-3 Mini 4K."
+    },
+    {
+      "name": "Phi-3 Medium 128K Instruct (free)",
+      "id": "microsoft/phi-3-medium-128k-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Phi-3 Medium 128K Instruct model has an output speed of 50.8 tokens per second.",
+      "description": "- **Good at:** High-quality language processing, reasoning, coding, and math benchmarks.\n- **Not good at:** Complex multimodal tasks (compared to dedicated models) and extensive domain-specific knowledge.\n- **Relevant info:** 14 billion parameters; supports a context length of 128K tokens; designed for cost-effectiveness.\n- **Variant of existing model:** Yes, it's part of the Phi-3 model family."
+    },
+    {
+      "name": "Phi-3 Medium 128K Instruct",
+      "id": "microsoft/phi-3-medium-128k-instruct",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The 'Phi-3 Medium 128K Instruct' model has a performance of 50.8 tokens per second.",
+      "description": "- **Good at:** Language comprehension, reasoning tasks, coding, and mathematical problems.\n- **Not good at:** Handling large datasets efficiently and complex conversational nuances.\n- **Other relevant info:** 14 billion parameters, part of the Phi-3 model family, trained on diverse datasets including synthetic data.\n- **Variant:** Yes, it's a variant in the Phi-3 family (specifically the Medium 128K instruct version)."
+    },
+    {
+      "name": "Llama 3 Lumimaid 70B",
+      "id": "neversleep/llama-3-lumimaid-70b",
+      "prompt_cost": "$3.375",
+      "completion_cost": "$4.5",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The AI model 'Llama 3.1 Nemotron 70B' has a median output speed of 9 tokens per second on Deepinfra.",
+      "description": "- **Good at**: Text generation, roleplay interactions, knowledge access beyond roleplay.\n- **Not good at**: Data sensitivity, handling audacious content without filters.\n- **Relevant info**: Fine-tuned on curated roleplay data; designed to balance seriousness with uncensored output.\n- **Variant**: A variant of the Llama 3 model by Meta, specifically tuned for roleplay applications."
+    },
+    {
+      "name": "Google: Gemini Flash 1.5",
+      "id": "google/gemini-flash-1.5",
+      "prompt_cost": "$0.075",
+      "completion_cost": "$0.3",
+      "context_length": "1,000,000",
+      "moderation": "None",
+      "speed": "The performance of the Gemini 1.5 Flash model is reported to be 60 tokens per second, based on available information.",
+      "description": "- **Good at:** Multimodal tasks, high-speed performance, and efficiency in generating responses.\n- **Not good at:** Handling very complex reasoning tasks compared to more extensive models.\n- **Other info:** Fast and lightweight, optimized for lower latency with minimal quality loss; suitable for high-volume applications.\n- **Variant of existing model:** Yes, it's a streamlined version of the Gemini 1.5 model family."
+    },
+    {
+      "name": "DeepSeek V2.5",
+      "id": "deepseek/deepseek-chat",
+      "prompt_cost": "$0.14",
+      "completion_cost": "$0.28",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The DeepSeek V2.5 model has an output speed of 17 tokens per second.",
+      "description": "- **Strengths**: Excels in general language tasks and coding-related functions; improved human alignment; optimized for writing and instruction following.\n- **Weaknesses**: Specific areas of limitation not detailed; may not outperform niche models in specialized tasks.\n- **Additional Info**: 238 billion parameters; supports function calls and JSON output; utilizes Mixture of Experts architecture with 128k context length.\n- **Model Variant**: Yes, it merges capabilities from DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct."
+    },
+    {
+      "name": "Perplexity: Llama3 Sonar 70B Online",
+      "id": "perplexity/llama-3-sonar-large-32k-online",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "28,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Perplexity: Llama3 Sonar 70B Online' model was found.",
+      "description": "- **Good at**: Delivering helpful, up-to-date, and factual responses; real-time information access.\n- **Not good at**: Potentially hallucinating; may require refinement in task-specific instructions.\n- **Other info**: Part of the Llama3 Sonar family; improves on earlier Sonar models in performance and cost-efficiency.\n- **Model variant**: Yes, it's based on Meta's Llama-3.1 architecture."
+    },
+    {
+      "name": "Perplexity: Llama3 Sonar 70B",
+      "id": "perplexity/llama-3-sonar-large-32k-chat",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The Llama3 Sonar 70B model's output speed varies by provider, with top performances reported at 446 tokens/second, 250 tokens/second, and lower rates for other services.",
+      "description": "- **What it's good at**: High performance in generating factual, up-to-date responses; excels in instruction-following.\n- **What it's not good at**: May struggle with tasks requiring deep understanding or creative output.\n- **Other relevant information**: Optimized for search and language processing; offers cost-efficiency and speed.\n- **Model type**: Variant of the Llama 3.1 architecture, specifically the 70B model in the Sonar family."
+    },
+    {
+      "name": "Perplexity: Llama3 Sonar 8B",
+      "id": "perplexity/llama-3-sonar-small-32k-chat",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Perplexity: Llama3 Sonar 8B' model was found.",
+      "description": "- **Good at**: Providing accurate, up-to-date, and factual responses; optimized for search capabilities.\n- **Not good at**: Lacks the complexity of larger models (like 70B or 405B); may struggle with nuanced reasoning tasks.\n- **Other information**: Context length of 128k; focused on cost-efficiency and speed; online version has internet access.\n- **Model variant**: A variant of the Llama 3.1 architecture, specifically the 8B model within the Llama 3.1 family."
+    },
+    {
+      "name": "Meta: LlamaGuard 2 8B",
+      "id": "meta-llama/llama-guard-2-8b",
+      "prompt_cost": "$0.18",
+      "completion_cost": "$0.18",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the 'Meta: LlamaGuard 2 8B' model was found.",
+      "description": "- **Good at:** Classifying content for safety in LLM inputs and outputs, handling 11 safety categories.\n- **Not good at:** Moderating Election and Defamation categories due to lack of real-time data verification.\n- **Relevant info:** 8 billion parameters, based on Llama 3, optimized for better classification performance compared to Llama Guard 1.\n- **Variant status:** Yes, it's a variant of the original Llama Guard model."
+    },
+    {
+      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "id": "openai/gpt-4o-2024-05-13",
+      "prompt_cost": "$5",
+      "completion_cost": "$15",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'OpenAI: GPT-4o (2024-05-13)' has a performance of 63.32 tokens per second.",
+      "description": "- **Strengths**: Superior at multimodal processing (text, audio, image), real-time translations, and fast responses (avg. 320 ms).\n- **Weaknesses**: Less effective on difficult tasks compared to GPT-4, may still exhibit biases and hallucinations.\n- **Notable Features**: Processes inputs cohesively, can handle 50+ languages, significantly faster and cheaper than previous models.\n- **Model Variant**: Yes, it is an advanced version of GPT-4, focusing on enhanced multimedia capabilities."
+    },
+    {
+      "name": "OpenAI: GPT-4o",
+      "id": "openai/gpt-4o",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'OpenAI: GPT-4o' has a median output speed of 97 tokens per second.",
+      "description": "- **What it's good at**: Excels in reasoning across audio, vision, and text; high performance in multilingual tasks and code generation.\n- **What it's not good at**: May struggle with highly complex reasoning tasks outside of its training data.\n- **Other information**: Built on the GPT-4 architecture; includes advanced data handling and real-time processing.\n- **Model variant**: Yes, it is an updated variant of GPT-4."
+    },
+    {
+      "name": "OpenAI: GPT-4o (extended)",
+      "id": "openai/gpt-4o:extended",
+      "prompt_cost": "$6",
+      "completion_cost": "$18",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The AI model 'OpenAI: GPT-4o (extended)' has a mean output speed of 63.32 tokens per second.",
+      "description": "- **Strengths**: Multimodal capabilities (text, audio, images, video); fast response times; high accuracy; good at collaborative tasks.\n- **Weaknesses**: May still exhibit social biases; potential for generating hallucinations; input/output limitations (currently supports text and image inputs only).\n- **Additional Info**: Trained across various modalities; designed for versatile usage in creative applications.\n- **Variant**: Yes, it is an iteration of the GPT-4 model, specifically called an \"omni\" model."
+    },
+    {
+      "name": "Qwen 1.5 72B Chat",
+      "id": "qwen/qwen-72b-chat",
+      "prompt_cost": "$0.81",
+      "completion_cost": "$0.81",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for 'Qwen 1.5 72B Chat' was found.",
+      "description": "- **Good at**: Multilingual text generation, handling long contexts (32k tokens), and improved chat quality over previous versions.\n- **Not good at**: Tasks requiring extensive common sense reasoning or specific factual recall.\n- **Other info**: Variant of the Qwen series; transformer-based, with 72 billion parameters.\n- **Relevant capabilities**: Enhanced performance on both English and Chinese tasks; supports roleplay and system prompts."
+    },
+    {
+      "name": "Qwen 1.5 110B Chat",
+      "id": "qwen/qwen-110b-chat",
+      "prompt_cost": "$1.62",
+      "completion_cost": "$1.62",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Qwen 1.5 110B Chat model was found.",
+      "description": "- **Strengths**: Excels in chat interactions, multilingual support, long context handling (32K), and superior performance in human preference evaluations.\n- **Weaknesses**: Less effective at specific niche tasks or highly technical topics compared to specialized models.\n- **Other Info**: Part of the Qwen series, specifically the beta version leading to Qwen2; has over 100 billion parameters.\n- **Model Variant**: Yes, it's a variant of the preceding Qwen models, improving upon their capabilities."
+    },
+    {
+      "name": "Llama 3 Lumimaid 8B",
+      "id": "neversleep/llama-3-lumimaid-8b",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "24,576",
+      "moderation": "None",
+      "speed": "The performance data for 'Llama 3 Lumimaid 8B' in tokens per second is not specifically found.",
+      "description": "- **Strengths**: Excellent at conversational AI and text generation, especially in roleplay contexts; balances serious and lighthearted interactions.\n- **Weaknesses**: May struggle with purely factual or context-sensitive tasks due to its finetuning.\n- **Other Info**: Trained on a mix of roleplay and non-roleplay data (40% non-roleplay), improving overall knowledge.\n- **Model Variant**: A finetuned version of the Llama 3 base model, specifically designed by the NeverSleep team."
+    },
+    {
+      "name": "Llama 3 Lumimaid 8B (extended)",
+      "id": "neversleep/llama-3-lumimaid-8b:extended",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "24,576",
+      "moderation": "None",
+      "speed": "No specific tokens per second data was found for the AI model 'Llama 3 Lumimaid 8B (extended)'.",
+      "description": "- **Good at**: Text generation, roleplay interactions (balance of serious and uncensored), various conversational contexts.\n- **Not good at**: Handling highly structured or technical queries.\n- **Other info**: Fine-tuned with roleplay data; incorporates diverse knowledge (40% non-roleplay data). \n- **Variant**: A fine-tuned version of the Llama 3 8B model."
+    },
+    {
+      "name": "Fimbulvetr 11B v2",
+      "id": "sao10k/fimbulvetr-11b-v2",
+      "prompt_cost": "$0.375",
+      "completion_cost": "$1.5",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Fimbulvetr 11B v2 model was found.",
+      "description": "- **Good at:** Contextual understanding, realistic character portrayal, creative responses.\n- **Not good at:** Sometimes struggles with strict adherence to character cards; may have occasional formatting issues.\n- **Additional Info:** Trained on a mix of publicly available data; supports Alpaca and Vicuna formats; effective up to 4096 tokens.\n- **Variant of Existing Model:** Updated version of Fimbulvetr 11B v1."
+    },
+    {
+      "name": "Meta: Llama 3 70B Instruct",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The AI model 'Meta: Llama 3 70B Instruct' achieves a performance of approximately 3574.81 tokens per second.",
+      "description": "- **Good at**: Multilingual dialogue use cases, generating text and code, outperforming many existing open-source chat models.\n- **Not good at**: Highly specialized scientific reasoning or tasks that require extensive domain-specific knowledge.\n- **Other information**: Instruction-tuned version optimized for better contextual understanding; family of models includes sizes 8B and 70B.\n- **Variant of existing model**: Yes, it is a variant of the Llama 3 family of models."
+    },
+    {
+      "name": "Meta: Llama 3 70B Instruct (nitro)",
+      "id": "meta-llama/llama-3-70b-instruct:nitro",
+      "prompt_cost": "$0.792",
+      "completion_cost": "$0.792",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for 'Meta: Llama 3 70B Instruct (nitro)' was found.",
+      "description": "- **Strengths:** Excellent at dialogue and instruction-following tasks; outperforms many existing chat models.\n- **Weaknesses:** May struggle with highly specialized or niche subjects; less effective in generating complex reasoning.\n- **Other Information:** A 70 billion parameter model, it utilizes an optimized transformer architecture; instruction-tuned for higher quality responses.\n- **Model Variant:** Yes, it's a variant of Meta's Llama 3 line, specifically the instruction-tuned version."
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct (free)",
+      "id": "meta-llama/llama-3-8b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The performance of the Meta: Llama 3 8B Instruct model is approximately 3 to 4 tokens per second based on tested conditions.",
+      "description": "- **Good at**: Following instructions, providing accurate responses in various dialogue contexts, and outperforming previous models in benchmarks.\n- **Not good at**: Highly complex reasoning tasks compared to larger variants like 70B.\n- **Relevant info**: Trained on a large dataset, optimized for multilingual use, with 8 billion parameters.\n- **Model variant**: A variant of the Llama 3 series, tailored for instruction following."
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct",
+      "id": "meta-llama/llama-3-8b-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for 'Meta: Llama 3 8B Instruct' was found in the search results.",
+      "description": "- **What it's good at:** Optimized for multilingual dialogue; excels in generating text and code; outperforms other open-source models on benchmarks.\n- **What it's not good at:** May struggle with highly specialized tasks or nuanced topics due to model size (8 billion parameters).\n- **Other relevant information:** Part of the Llama 3 family; designed for open-source applications and community feedback. \n- **Variant:** Instruction-tuned version of the Llama 3 model architecture."
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct (nitro)",
+      "id": "meta-llama/llama-3-8b-instruct:nitro",
+      "prompt_cost": "$0.162",
+      "completion_cost": "$0.162",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Meta: Llama 3 8B Instruct (nitro) model was found.",
+      "description": "- **Good at**: High-quality dialogue generation, text and code generation, performing well on industry benchmarks.\n- **Not good at**: Potential limitations in specialized niche topics or highly technical discussions.\n- **Relevant info**: Instruct-tuned model trained on 15 trillion tokens; optimized for helpfulness and safety; built on improved Llama architecture.\n- **Model variant**: Yes, it's an instruct-tuned version of Meta's Llama 3 model."
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct (extended)",
+      "id": "meta-llama/llama-3-8b-instruct:extended",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "16,384",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for 'Meta: Llama 3 8B Instruct (extended)' was found.",
+      "description": "- **Good at**: High-quality dialogue generation; outperforming closed-source models in evaluations.\n- **Not good at**: Complex reasoning tasks may still pose challenges compared to larger models.\n- **Capabilities**: Optimized with supervised fine-tuning and reinforcement learning; supports conversational applications.\n- **Variant**: A tuned version of the Llama 3 model family; specifically the 8B parameter size aimed at instruction-following tasks."
+    },
+    {
+      "name": "Mistral: Mixtral 8x22B Instruct",
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "prompt_cost": "$0.9",
+      "completion_cost": "$0.9",
+      "context_length": "65,536",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Mistral: Mixtral 8x22B Instruct model was found.",
+      "description": "- **Good at**: Following instructions, creative text generation, multilingual understanding, and math tasks.\n- **Not good at**: Handling complex logic without potential inaccuracies or biases.\n- **Relevant info**: Sparse Mixture-of-Experts (SMoE) model with 39B active parameters from a total of 141B; efficient cost-performance ratio.\n- **Variant**: Yes, it's an instruct fine-tuned version of the Mixtral-8x22B model."
+    },
+    {
+      "name": "WizardLM-2 7B",
+      "id": "microsoft/wizardlm-2-7b",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "32,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for WizardLM-2 7B was found.",
+      "description": "- **Strengths**: Excels in complex chat, multilingual understanding, and reasoning tasks; fast and compares well to larger models.\n- **Weaknesses**: Potential limitations in highly specialized or niche applications.\n- **Relevant Info**: Developed by Microsoft; trained with innovative techniques enhancing instruction-following capabilities.\n- **Model Variant**: Smallest variant in the WizardLM-2 family, based on Mistral-7B."
+    },
+    {
+      "name": "WizardLM-2 8x22B",
+      "id": "microsoft/wizardlm-2-8x22b",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.5",
+      "context_length": "65,536",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the WizardLM-2 8x22B model was found.",
+      "description": "- **Strengths**: Excels at complex tasks; competitive with top proprietary models; outperforms existing open-source models.\n- **Weaknesses**: Can lag behind ChatGPT in specific evaluations; may struggle with certain nuanced tasks.\n- **Additional Info**: Developed by Microsoft; showcases top-tier reasoning capabilities in its category.\n- **Model Type**: Variant of WizardLM, specifically the 2nd version (WizardLM-2)."
+    },
+    {
+      "name": "Google: Gemini Pro 1.5",
+      "id": "google/gemini-pro-1.5",
+      "prompt_cost": "$1.25",
+      "completion_cost": "$5",
+      "context_length": "2,000,000",
+      "moderation": "None",
+      "speed": "Google's Gemini Pro 1.5 has an output speed of 60.4 tokens per second.",
+      "description": "- **Strengths**: Excels in multilingual tasks, complex prompts, long-context understanding (up to 10 million tokens), coding, and vision tasks.\n- **Weaknesses**: May not perform as well in speed compared to lighter models like Gemini 1.5 Flash.\n- **Relevant Info**: Offers breakthrough capabilities in multimodal tasks and demonstrates high accuracy across various general AI applications.\n- **Model Variant**: An upgraded version of the Gemini 1.0 series, designed with improved efficiency and extended context handling."
+    },
+    {
+      "name": "OpenAI: GPT-4 Turbo",
+      "id": "openai/gpt-4-turbo",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The performance of GPT-4 Turbo is reported to be approximately 20 tokens per second.",
+      "description": "- **Good at**: Complex tasks, improved instruction following, long context processing (up to 300 pages).\n- **Not good at**: Real-time updates (knowledge cutoff April 2023), may still struggle with nuanced queries.\n- **Additional Info**: Cheaper than GPT-4 (1/3 for inputs, 1/2 for outputs); supports multimodal input.\n- **Variant**: Yes, it's an enhanced version of GPT-4, known as GPT-4 Turbo."
+    },
+    {
+      "name": "Cohere: Command R+",
+      "id": "cohere/command-r-plus",
+      "prompt_cost": "$2.85",
+      "completion_cost": "$14.25",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Cohere: Command R+ model was found.",
+      "description": "- **Good at**: Text generation, summarization, reasoning, question answering, and enterprise applications (optimized for retrieval-augmented generation).\n- **Not good at**: Specific conversational nuances and casual dialogue compared to some conversational-only models.\n- **Relevant information**: Features long context handling, multi-step tool use, and enterprise scalability. \n- **Model type**: Variant of the Command family (specifically an enhancement of Command R)."
+    },
+    {
+      "name": "Cohere: Command R+ (04-2024)",
+      "id": "cohere/command-r-plus-04-2024",
+      "prompt_cost": "$2.85",
+      "completion_cost": "$14.25",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for 'Cohere: Command R+ (04-2024)' was found.",
+      "description": "- **Good at**: Conversational tasks, long-context processing, complex retrieval-augmented generation (RAG) workflows, multi-step tool use, enterprise-grade workloads.\n- **Not good at**: Specific limitations not detailed, but generally may face challenges in casual conversation or personality nuances.\n- **Relevant info**: Supports up to 128k context length; available on Microsoft Azure.\n- **Variant**: Yes, it's an upgrade within the Command R series of models."
+    },
+    {
+      "name": "Databricks: DBRX 132B Instruct",
+      "id": "databricks/dbrx-instruct",
+      "prompt_cost": "$1.08",
+      "completion_cost": "$1.08",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data was found for the Databricks: DBRX 132B Instruct model.",
+      "description": "- **Strengths**: Excels in programming (37.9%) and mathematical reasoning (40.2%), outperforming LLaMA2-70B and Grok-1 in various tasks.\n- **Weaknesses**: Performance in very complex open-ended conversations may not match specialized models.\n- **Additional Info**: Transformer-based, MoE architecture with 132B parameters; trained on 12T tokens.\n- **Variant**: A distinct model from Databricks, not directly a variant of any existing model."
+    },
+    {
+      "name": "Midnight Rose 70B",
+      "id": "sophosympatheia/midnight-rose-70b",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$0.8",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The Midnight Rose 70B model has reported performance benchmarks ranging from approximately 2 to 4 tokens per second, depending on the hardware used.",
+      "description": "- **What it's good at**: Exceptional creativity and coherence in creative writing; generates lengthy output; suitable for storytelling and role-playing.\n- **What it's not good at**: Limited in structured data tasks and may produce uncensored or unfiltered content.\n- **Other relevant info**: A successor to Rogue Rose and Aurora Nights; features 70 billion parameters; benefits from earlier versions' strengths.\n- **Variants**: Yes, it's a variant derived from multiple model merges including Airoboros and Llama-2."
+    },
+    {
+      "name": "Cohere: Command R",
+      "id": "cohere/command-r",
+      "prompt_cost": "$0.475",
+      "completion_cost": "$1.425",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "Cohere's Command R model can perform at a speed of 154 tokens per second when benchmarked on Azure.",
+      "description": "- **Good at:** Instruction-following tasks, complex workflows (e.g., code generation, retrieval augmented generation), high-quality language tasks with longer context.\n- **Not good at:** Less effective in simple, straightforward queries compared to specialized models.\n- **Additional Info:** Supports multilingual generation, evaluated in 10 languages; overall balanced high performance and strong accuracy.\n- **Model Variant:** Command R is an updated version of previous models in the Cohere family."
+    },
+    {
+      "name": "Cohere: Command",
+      "id": "cohere/command",
+      "prompt_cost": "$0.95",
+      "completion_cost": "$1.9",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "I could not find specific tokens per second data for the 'Cohere: Command' model.",
+      "description": "- **Strengths**: Excellent at instruction-following, reasoning, summarization, and question answering; optimized for document-based tasks.\n- **Weaknesses**: May struggle with highly nuanced conversational contexts compared to specialized chat models.\n- **Other Info**: Supports long-context tasks (up to 128k tokens); designed for enterprise use.\n- **Variants**: Related to the Command R model, with multiple updates enhancing capabilities."
+    },
+    {
+      "name": "Anthropic: Claude 3 Haiku",
+      "id": "anthropic/claude-3-haiku",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$1.25",
+      "context_length": "200,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'Anthropic: Claude 3 Haiku' processes 21,000 tokens per second for prompts under 32,000 tokens.",
+      "description": "- **Strengths**: Fastest response times; ideal for live interactions and real-time data extraction; cost-effective.\n- **Weaknesses**: May lack the depth and complexity of higher models (Opus); less suitable for intricate reasoning tasks.\n- **Relevant Info**: Part of the Claude 3 family alongside Sonnet and Opus; caters to diverse enterprise applications; features vision capabilities.\n- **Model Variant**: Yes, it is a variant within the Claude 3 series, designed for speed and efficiency."
+    },
+    {
+      "name": "Anthropic: Claude 3 Haiku (self-moderated)",
+      "id": "anthropic/claude-3-haiku:beta",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$1.25",
+      "context_length": "200,000",
+      "moderation": "None",
+      "speed": "The AI model 'Anthropic: Claude 3 Haiku' processes 21,000 tokens per second for prompts under 32,000 tokens.",
+      "description": "- **Good at**: Fast response times, cost-effectiveness, real-time applications, strong performance in benchmarks.\n- **Not good at**: More complex reasoning tasks compared to higher versions (Sonnet and Opus).\n- **Relevant info**: Part of Claude 3 model family, excels in moderation tasks with fair content treatment.\n- **Variant**: Yes, it is the most basic variant in the Claude 3 series (with Sonnet and Opus being more advanced)."
+    },
+    {
+      "name": "Anthropic: Claude 3 Sonnet",
+      "id": "anthropic/claude-3-sonnet",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'Anthropic: Claude 3 Sonnet' has a performance speed of approximately 61.4 tokens per second.",
+      "description": "- **Good at**: Visual reasoning, interpreting charts, and transcribing text from imperfect images; excels in complex problem-solving and language understanding.\n- **Not good at**: Slower and less performant in non-visual tasks compared to some peers; less ability in simpler tasks than optimized models.\n- **Other information**: First in the Claude 3.5 series; it surpasses previous models in accuracy and performance.\n- **Variant**: Part of the Claude 3.5 family; midrange model with distinct improvements over Claude 3 Opus."
+    },
+    {
+      "name": "Anthropic: Claude 3 Sonnet (self-moderated)",
+      "id": "anthropic/claude-3-sonnet:beta",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "None",
+      "speed": "The AI model 'Anthropic: Claude 3 Sonnet' has an output speed of approximately 61.4 tokens per second.",
+      "description": "- **Good at**: Coding, reasoning, troubleshooting, and data science; excels in generating content and multimodal tasks.\n- **Not good at**: Complex emotional understanding and nuanced human interactions may not be as strong.\n- **Other relevant information**: Faster and safer than previous models; outperforms prior Claude models and competitors like GPT-4o.\n- **Variant of existing model**: Yes, this is an advanced version of the Claude series (Claude 3.5 Sonnet)."
+    },
+    {
+      "name": "Anthropic: Claude 3 Opus",
+      "id": "anthropic/claude-3-opus",
+      "prompt_cost": "$15",
+      "completion_cost": "$75",
+      "context_length": "200,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'Anthropic: Claude 3 Opus' has an output speed of 27 tokens per second.",
+      "description": "- **Strengths**: Excels in complex analysis, multi-step tasks, higher-order math, and sophisticated language generation.\n- **Weaknesses**: May perform suboptimally on simpler tasks compared to mid-range models like Sonnet.\n- **Other Info**: Offers a large context window (200,000 tokens) and is part of the Claude model family.\n- **Model Variant**: It is the flagship model within the Claude 3 series, introduced after Claude 3.5 Sonnet."
+    },
+    {
+      "name": "Anthropic: Claude 3 Opus (self-moderated)",
+      "id": "anthropic/claude-3-opus:beta",
+      "prompt_cost": "$15",
+      "completion_cost": "$75",
+      "context_length": "200,000",
+      "moderation": "None",
+      "speed": "The AI model 'Anthropic: Claude 3 Opus (self-moderated)' performs at 27 tokens per second.",
+      "description": "- **Good at**: Complex cognitive tasks, language understanding, persuasive communication, coding, analysis, and reasoning.\n- **Not good at**: Consistent performance in tasks requiring high precision (e.g., complex math).\n- **Relevant Info**: Most capable variant in the Claude 3 model family; offers human-level persuasiveness.\n- **Model Variant**: It is a flagship model within the Claude 3 family (which includes Haiku and Sonnet)."
+    },
+    {
+      "name": "Cohere: Command R (03-2024)",
+      "id": "cohere/command-r-03-2024",
+      "prompt_cost": "$0.475",
+      "completion_cost": "$1.425",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "The performance of the AI model 'Cohere: Command R (03-2024)' is reported to be 154 tokens per second.",
+      "description": "- **What the model is good at**: Instruction-following, complex workflows (e.g., code generation, retrieval-augmented generation), high-quality language tasks.\n- **What the model is not good at**: Potential limitations in handling very specific or niche queries.\n- **Other relevant information**: Supports multilingual generation; designed for enterprise use; emphasizes reliability and longer context.\n- **Model variant**: Command R is part of Cohere's R-series, utilizing advancements over previous models."
+    },
+    {
+      "name": "Mistral Large",
+      "id": "mistralai/mistral-large",
+      "prompt_cost": "$2",
+      "completion_cost": "$6",
+      "context_length": "128,000",
+      "moderation": "None",
+      "speed": "Specific tokens per second performance data for the Mistral Large model was not found.",
+      "description": "- **Strengths**: Excellent at complex multilingual reasoning, text understanding, transformation, and code generation.\n- **Weaknesses**: May struggle with very specialized or niche domains outside its training data.\n- **Relevant Info**: 12 billion parameters; state-of-the-art in reasoning benchmarks; can handle both text and image understanding.\n- **Variant**: Mistral Large is part of the Mistral AI portfolio and includes improvements over previous models."
+    },
+    {
+      "name": "OpenAI: GPT-4 Turbo Preview",
+      "id": "openai/gpt-4-turbo-preview",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The performance of the OpenAI GPT-4 Turbo Preview model is reported to be 35.68 tokens per second.",
+      "description": "- **What it's good at**: Enhanced context handling (128k tokens), cost-efficient, improved performance in tasks like code generation and multimodal inputs (text and images).\n- **What it's not good at**: Struggles with social biases, hallucinations, and adversarial prompts.\n- **Other relevant information**: Knowledge cutoff in April 2023, designed for developer efficiency, currently in preview.\n- **Model variant**: A variant of the original GPT-4, optimized for performance and cost."
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "4,095",
+      "moderation": "Moderated",
+      "speed": "The specific performance data for 'OpenAI: GPT-3.5 Turbo (older v0613)' in terms of tokens per second was not found.",
+      "description": "- **Good at**: Generating coherent text, engaging in conversation, answering questions, and providing creative writing assistance.\n- **Not good at**: Understanding context deeply, managing long-term memory, and giving factually accurate information for every query.\n- **Other info**: Fast response times and lower computational overhead compared to larger models.\n- **Variant**: Yes, it is a variant of the GPT-3 series, optimized for speed and efficiency."
+    },
+    {
+      "name": "Nous: Hermes 2 Mixtral 8x7B DPO",
+      "id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+      "prompt_cost": "$0.54",
+      "completion_cost": "$0.54",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Nous: Hermes 2 Mixtral 8x7B DPO' model was found.",
+      "description": "- **Good at:** State-of-the-art performance in conversational text generation, surpassing benchmarks like GPT4All.\n- **Not good at:** May struggle with highly specialized or niche tasks outside general training.\n- **Relevant info:** Trained on over 1 million entries, primarily from GPT-4; includes supervised fine-tuning (SFT) and direct preference optimization (DPO).\n- **Variant:** A variant of the Mixtral 8x7B MoE model."
+    },
+    {
+      "name": "Mistral Medium",
+      "id": "mistralai/mistral-medium",
+      "prompt_cost": "$2.75",
+      "completion_cost": "$8.1",
+      "context_length": "32,000",
+      "moderation": "None",
+      "speed": "Mistral Medium has a median output speed of 38 tokens per second.",
+      "description": "- **Good at**: Mid-range performance in diverse tasks, context window of 32k tokens, outperforms lighter models like Mixtral 8x7B.\n- **Not good at**: Very high-complexity tasks compared to larger models.\n- **Relevant info**: 13 billion parameters, positioned between Mistral 7B and Large series for a balance of efficiency and capability.\n- **Variant**: It's a mid-sized model, part of the Mistral family."
+    },
+    {
+      "name": "Mistral Small",
+      "id": "mistralai/mistral-small",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.6",
+      "context_length": "32,000",
+      "moderation": "None",
+      "speed": "The Mistral Small model achieves an output speed of approximately 52 tokens per second.",
+      "description": "- **Good at**: Text generation, intermediate tasks (e.g., data extraction, summarizing documents).\n- **Not good at**: Complex reasoning beyond moderate tasks.\n- **Other Relevant Info**: 22 billion parameters; optimized for efficiency and low latency; supports function calling.\n- **Model Variant**: A variant of the Mistral model family, specifically designed for a balance of performance and capability."
+    },
+    {
+      "name": "Mistral Tiny",
+      "id": "mistralai/mistral-tiny",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.25",
+      "context_length": "32,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the 'Mistral Tiny' model was found.",
+      "description": "- **Strengths**: Efficient for large batch processing, good cost-effectiveness, improved fine-tuning over Mistral 7B.\n- **Weaknesses**: May not excel in highly complex reasoning tasks compared to larger models.\n- **Relevant Info**: Powers tasks where budget is a priority; based on Mistral 7B architecture.\n- **Variant**: Yes, it's a refined variant of Mistral 7B."
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct v0.2",
+      "id": "mistralai/mistral-7b-instruct-v0.2",
+      "prompt_cost": "$0.18",
+      "completion_cost": "$0.18",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The performance of the Mistral 7B Instruct v0.2 model in terms of tokens per second is not specifically provided; however, other models in its category show a range of approximately 5 to over 800 tokens per second in various configurations.",
+      "description": "- **Good at**: Understanding and following human-like instructions, generating text across various domains, especially code-related tasks.\n- **Not good at**: Handling very long context windows exceeding 32k tokens effectively, precision in highly specialized topics.\n- **Relevant Info**: 7.3 billion parameters; fine-tuned from Mistral-7B-v0.2; utilizes a 32k context window.\n- **Model Variant**: Yes, it's a variant of Mistral-7B-v0.2, designed specifically for instruction-following tasks."
+    },
+    {
+      "name": "Dolphin 2.6 Mixtral 8x7B \ud83d\udc2c",
+      "id": "cognitivecomputations/dolphin-mixtral-8x7b",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.5",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for 'Dolphin 2.6 Mixtral 8x7B' was found.",
+      "description": "- **Good At**: Coding tasks, generating code snippets, following user instructions with high obedience.\n- **Not Good At**: Not specifically tuned for DPO (direct preference optimization), may lack depth in non-coding queries.\n- **Other Relevant Info**: Fine-tuned from Mixtral-8x7b, trained on coding data with a 16k context window.\n- **Model Variant**: Yes, it's a variant of the Mixtral-8x7b model."
+    },
+    {
+      "name": "Google: Gemini Pro 1.0",
+      "id": "google/gemini-pro",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "32,760",
+      "moderation": "None",
+      "speed": "The AI model 'Google: Gemini Pro 1.0' has an average processing speed of 49.67 tokens per second.",
+      "description": "- **Strengths**: Excels in multimodal reasoning, advanced coding tasks, and high recall accuracy (>99.7%).\n- **Weaknesses**: May not be as powerful as later versions like Gemini 1.5.\n- **Relevant Info**: Optimized for various computing systems and capable of handling extensive context windows (up to 1,500 pages).\n- **Model Variant**: Yes, it is part of the Gemini model family, specifically a variant of Gemini 1.0."
+    },
+    {
+      "name": "Google: Gemini Pro Vision 1.0",
+      "id": "google/gemini-pro-vision",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "16,384",
+      "moderation": "None",
+      "speed": "The AI model 'Google: Gemini Pro Vision 1.0' achieves an average performance of 49.67 tokens per second.",
+      "description": "- **Good at**: Multimodal tasks (text, image, video), strong scaling capabilities, and integration with Google Cloud services.\n- **Not good at**: Highly complex or specialized tasks compared to newer variants (e.g., Gemini 1.5).\n- **Other relevant info**: Provides a balanced approach for general use; it's optimized for a wide range of applications.\n- **Variant**: Yes, it\u2019s the first version in the Gemini model family, which includes enhanced versions like Gemini 1.5 Pro."
+    },
+    {
+      "name": "Mixtral 8x7B Instruct",
+      "id": "mistralai/mixtral-8x7b-instruct",
+      "prompt_cost": "$0.24",
+      "completion_cost": "$0.24",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The performance of the Mixtral 8x7B Instruct model is reported to be around 27 tokens per second.",
+      "description": "- **Strengths**: Excels at following instructions, completing requests, generating creative text; outperforms Llama 2 70B and matches/exceeds GPT-3.5 on benchmarks.\n- **Weaknesses**: Potential for generating inaccurate or biased outputs; may struggle with highly specialized tasks.\n- **Additional Info**: Sparse Mixture of Experts (SMoE) architecture; optimized for careful instruction following.\n- **Model Variant**: Yes, it's a variant of the Mistral language models."
+    },
+    {
+      "name": "Mixtral 8x7B Instruct (nitro)",
+      "id": "mistralai/mixtral-8x7b-instruct:nitro",
+      "prompt_cost": "$0.54",
+      "completion_cost": "$0.54",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The Mixtral 8x7B Instruct model achieves a performance of approximately 27 tokens per second when run locally.",
+      "description": "- **Good at:** Following instructions, creative text generation, multilingual tasks, and strong in mathematical reasoning and code generation.\n- **Not good at:** Lacks moderation mechanisms; may produce biased or inappropriate content.\n- **Other info:** High-quality sparse mixture of experts model; fine-tuned with supervised methods for improved instruction adherence.\n- **Variant:** Yes, it is an instruct-tuned variant of the Mixtral 8x7B model."
+    },
+    {
+      "name": "Mixtral 8x7B (base)",
+      "id": "mistralai/mixtral-8x7b",
+      "prompt_cost": "$0.54",
+      "completion_cost": "$0.54",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "The Mixtral 8x7B model achieves performance metrics of up to 100 tokens per second.",
+      "description": "- **Good at**: Strong performance in mathematical reasoning, code generation, and multilingual tasks (English, French, Italian, German, Spanish).\n- **Not good at**: Lacks built-in moderation mechanisms.\n- **Relevant info**: 7B sparse mixture-of-experts model; uses 12B active parameters out of 45B total; handles 32K tokens.\n- **Model variant**: Enhanced version of existing Mistral models."
+    },
+    {
+      "name": "MythoMist 7B (free)",
+      "id": "gryphe/mythomist-7b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data was found for the 'MythoMist 7B (free)' model.",
+      "description": "- **Good at**: Enhancing roleplay experiences by reducing repetitive and immersion-breaking responses.\n- **Not good at**: General-purpose tasks outside of roleplay and storytelling contexts.\n- **Other relevant information**: Combines 12 different models through a merging approach, designed for dynamic performance tuning based on user goals.\n- **Model variant**: A unique blend based on existing models such as Neural Chat 7B and Airoboros 7B."
+    },
+    {
+      "name": "MythoMist 7B",
+      "id": "gryphe/mythomist-7b",
+      "prompt_cost": "$0.375",
+      "completion_cost": "$0.375",
+      "context_length": "32,768",
+      "moderation": "None",
+      "speed": "No specific data on the performance of MythoMist 7B in tokens per second was found.",
+      "description": "- **Strengths**: Excels in roleplay scenarios, generates original myths, and combines multiple models to enhance user experience.\n- **Weaknesses**: May struggle with repetitive or immersion-breaking content if not properly tuned.\n- **Additional Info**: Merged from 12 different models, focusing on user-defined goals and minimizing undesirable outputs.\n- **Variant**: Yes, it's a variant of Mistral-based models, specifically designed for mythological storytelling and roleplay."
+    },
+    {
+      "name": "OpenChat 3.5 7B (free)",
+      "id": "openchat/openchat-7b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "OpenChat 3.5 7B (free) has a median output speed of 77 tokens per second on Deepinfra.",
+      "description": "- **Strengths**: Excels in coding, chat, and general tasks; performs well in benchmarks like HumanEval and AGIEval.\n- **Weaknesses**: May struggle with very complex reasoning or highly specialized topics.\n- **Additional Info**: Features fine-tuning techniques like C-RLFT; a variant of existing models, designed to align with human goals.\n- **Parameter Size**: 7 billion parameters."
+    },
+    {
+      "name": "OpenChat 3.5 7B",
+      "id": "openchat/openchat-7b",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The 'OpenChat 3.5 7B' model has a median output speed of 77 tokens per second on Deepinfra.",
+      "description": "- **Good at**: Coding tasks, chat interactions, mathematical reasoning.\n- **Not good at**: Handling complex context retention over long conversations.\n- **Capabilities**: 7 billion parameters; fine-tuned with C-RLFT; performs on par with ChatGPT.\n- **Variant**: A fine-tuned version of existing language models, specifically optimized for open-source applications."
+    },
+    {
+      "name": "Noromaid 20B",
+      "id": "neversleep/noromaid-20b",
+      "prompt_cost": "$1.5",
+      "completion_cost": "$2.25",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The performance of the Noromaid 20B model is reported to achieve around 0.65 tokens per second with low context sizes and approximately 0.45 tokens per second at maximum context.",
+      "description": "- **Good at:** Role-playing (RP), erotic role-playing (ERP), and general conversational tasks.\n- **Not good at:** May suffer from repeating outputs, especially in longer conversations.\n- **Other info:** Developed by IkariDev and Undi; utilizes a no_robots dataset to enhance human-like behavior.\n- **Variant:** An updated variant of the Noromaid 20B model, originally designed with improved datasets."
+    },
+    {
+      "name": "Anthropic: Claude Instant v1.1",
+      "id": "anthropic/claude-instant-1.1",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "Moderated",
+      "speed": "Specific tokens per second performance data for Anthropic's Claude Instant v1.1 was not found.",
+      "description": "- **Good at**: Fast text generation and interpretation; supports extensive text inputs.\n- **Not good at**: Complex reasoning, advanced coding, and high-level math tasks.\n- **Other relevant information**: Considered a lightweight variant within the Claude family, designed for efficiency over performance.\n- **Variant**: Yes, it is a variant of the Claude model, specifically optimized for speed and cost-effectiveness."
+    },
+    {
+      "name": "Anthropic: Claude v2.1",
+      "id": "anthropic/claude-2.1",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'Anthropic: Claude v2.1' has an output speed of 28.8 tokens per second.",
+      "description": "- **Good at**: Managing large contexts (200K tokens), reducing model hallucination, responsive natural dialogues.\n- **Not good at**: Slower response times (1-2 seconds lag), lacks multimodal vision capabilities, some complex tasks may yield generic results.\n- **Other relevant info**: Improved accuracy and consistency over Claude 2, tailored for enterprise applications.\n- **Variant**: Yes, it is an updated version of Claude 2."
+    },
+    {
+      "name": "Anthropic: Claude v2.1 (self-moderated)",
+      "id": "anthropic/claude-2.1:beta",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "None",
+      "speed": "The AI model 'Anthropic: Claude v2.1 (self-moderated)' has an output speed of 28.8 tokens per second.",
+      "description": "- **Good at**: Processing long documents with a 200K token context window; reduced hallucination rates; task automation and workflow orchestration.\n- **Not good at**: Vision capabilities; performance may lag behind the latest models in some tasks.\n- **Relevant info**: An upgrade over Claude 2 with improved accuracy and consistency; emphasizes self-moderation.\n- **Model variant**: It is an updated version of the Claude 2 model."
+    },
+    {
+      "name": "Anthropic: Claude v2",
+      "id": "anthropic/claude-2",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "Moderated",
+      "speed": "The AI model 'Anthropic: Claude v2' has an output speed of 28.8 tokens per second.",
+      "description": "- **Good at**: Complex cognitive tasks, language generation, coding, and translation.\n- **Not good at**: Specific context understanding; may occasionally produce incorrect answers (hallucinations).\n- **Relevant info**: Noted for high intelligence, speed, and scalability; developed for various use cases.\n- **Model variant**: Claude v2 is an iteration of the Claude series, improving upon previous versions."
+    },
+    {
+      "name": "Anthropic: Claude v2 (self-moderated)",
+      "id": "anthropic/claude-2:beta",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for 'Anthropic: Claude v2 (self-moderated)' was found.",
+      "description": "- **What it excels at**: High performance in academia (e.g., Bar exam, GRE), coding assistance, summarization, and creative applications.\n- **What it struggles with**: Potential issues with biases and inaccuracies; may confuse complex topics.\n- **Other relevant info**: Features a 200K token context window and advanced safety measures for reduced hallucination.\n- **Variants**: Evolves from earlier Claude models, implementing advanced moderation techniques."
+    },
+    {
+      "name": "OpenHermes 2.5 Mistral 7B",
+      "id": "teknium/openhermes-2.5-mistral-7b",
+      "prompt_cost": "$0.17",
+      "completion_cost": "$0.17",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second data was found for the 'OpenHermes 2.5 Mistral 7B' AI model.",
+      "description": "- **What it's good at:** Strong in multi-turn conversation, code generation, and various NLP benchmarks (e.g., TruthfulQA, AGIEval).\n- **What it's not good at:** May struggle with highly specialized niche knowledge outside its training data.\n- **Relevant information:** Continuation of the OpenHermes 2 model, specifically fine-tuned on additional code datasets.\n- **Model variant:** Yes, it is a refined version of the OpenHermes 2 model."
+    },
+    {
+      "name": "OpenAI: GPT-4 Vision",
+      "id": "openai/gpt-4-vision-preview",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "No specific data on tokens per second for 'OpenAI: GPT-4 Vision' was found.",
+      "description": "- **What it\u2019s good at:** Multimodal processing (text and images), visual analysis, high accuracy in text tasks.\n- **What it\u2019s not good at:** Social biases, misinformation (hallucinations), and errors in interpretation.\n- **Other relevant information:** Builds on GPT-4\u2019s capabilities; not perfect and requires content verification.\n- **Model variant:** Yes, it is an enhanced version of GPT-4 that includes vision capabilities."
+    },
+    {
+      "name": "lzlv 70B",
+      "id": "lizpreciatior/lzlv-70b-fp16-hf",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The 'lzlv 70B' model performance varied, with reports indicating speeds from approximately 0.2 t/s for initial generation to about 15-20 t/s depending on hardware and configurations.",
+      "description": "- **Strengths**: Excels in text generation, creativity, role-playing, and enhancing user experience through intelligence.\n- **Weaknesses**: May struggle with complex logical reasoning or tasks requiring high precision.\n- **Relevant Info**: A merge of several LLaMA2 70B finetunes; fine-tuning improves performance on specific tasks.\n- **Model Variant**: Yes, it is a variant of multiple LLaMA2 models, specifically leveraged for tailored applications."
+    },
+    {
+      "name": "Goliath 120B",
+      "id": "alpindale/goliath-120b",
+      "prompt_cost": "$9.375",
+      "completion_cost": "$9.375",
+      "context_length": "6,144",
+      "moderation": "None",
+      "speed": "The Goliath 120B model can achieve speeds of approximately 10 tokens per second on capable hardware.",
+      "description": "- **Strengths**: Excels in text generation, translations, coding, and answering questions; optimized for fast processing.\n- **Weaknesses**: May struggle with highly specialized knowledge; not as good in reasoning-heavy tasks.\n- **Additional Info**: A large language model with 120 billion parameters, combining two fine-tuned Llama-2 70B models; offers improved capabilities over its predecessors.\n- **Model Variant**: Yes, it's a variant of existing Llama-2 models."
+    },
+    {
+      "name": "Toppy M 7B (free)",
+      "id": "undi95/toppy-m-7b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Toppy M 7B (free) model was found.",
+      "description": "- **Strengths**: Strong performance in text generation, versatile for various applications, good for developers and researchers.\n- **Weaknesses**: Limited in handling very complex tasks or nuanced contexts.\n- **Additional Info**: 7 billion parameters; utilizes a novel merging method called task_arithmetic from mergekit.\n- **Model Variants**: A variant of Undi95's models; designed for extensibility and broader compatibility."
+    },
+    {
+      "name": "Toppy M 7B",
+      "id": "undi95/toppy-m-7b",
+      "prompt_cost": "$0.07",
+      "completion_cost": "$0.07",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the Toppy M 7B model was found.",
+      "description": "- **Good at**: Generating roleplay scenarios, particularly in ERPs (Erotic Roleplay).\n- **Not good at**: Handling complex, factual inquiries or technical tasks; may produce inappropriate content.\n- **Relevant info**: Merges multiple models and technologies for enhanced performance; designed for creative applications.\n- **Variant**: Yes, it is based on an uncensored merge of existing models and employs a novel merging technique."
+    },
+    {
+      "name": "Toppy M 7B (nitro)",
+      "id": "undi95/toppy-m-7b:nitro",
+      "prompt_cost": "$0.07",
+      "completion_cost": "$0.07",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific data on the tokens per second performance of the Toppy M 7B (nitro) model was found.",
+      "description": "- **Good at**: Creative writing, language translation, context processing, responding to complex tasks.\n- **Not good at**: Specific niche tasks without ample training data, generating highly technical responses compared to larger models.\n- **Other info**: 7 billion parameters, merges multiple models via task_arithmetic, ongoing development for improved capabilities.\n- **Variant**: Yes, it is an enhanced version of the Toppy M model."
+    },
+    {
+      "name": "Auto (best for prompt)",
+      "id": "openrouter/auto",
+      "prompt_cost": "",
+      "completion_cost": "",
+      "context_length": "200,000",
+      "moderation": "--",
+      "speed": "No specific tokens per second data was found for the AI model \"Auto (best for prompt).\"",
+      "description": "- **Good at:** Automating machine learning model building, data preprocessing, feature engineering, and hyperparameter optimization.\n- **Not good at:** Handling complex tasks requiring manual intervention or domain-specific expertise.\n- **Other info:** Designed for data scientists, developers, and analysts to streamline the model deployment process.\n- **Variant of existing model:** Yes, it is a variant of AutoML tools focused on automation."
+    },
+    {
+      "name": "OpenAI: GPT-4 Turbo (older v1106)",
+      "id": "openai/gpt-4-1106-preview",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated",
+      "speed": "The specific tokens per second performance data for 'OpenAI: GPT-4 Turbo (older v1106)' was not found.",
+      "description": "- **What it's good at**: Advanced reasoning, following complex instructions, and handling large context windows (128k tokens).\n- **What it's not good at**: May still struggle with nuanced creativity and long-term factual accuracy.\n- **Other relevant information**: Updated knowledge cutoff to April 2023; more cost-effective than original GPT-4.\n- **Variant**: Yes, it's an enhanced variant of GPT-4 with improvements in performance and efficiency."
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo 16k (older v1106)",
+      "id": "openai/gpt-3.5-turbo-1106",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "16,385",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second data for 'OpenAI: GPT-3.5 Turbo 16k (older v1106)' was found.",
+      "description": "- **Good at**: Natural language understanding, generating human-like text, summarization, translation, and creative writing.\n- **Not good at**: Understanding context with deep nuance, handling highly technical or specialized content accurately, and providing real-time information.\n- **Other relevant info**: Popular for chatbots and content generation, optimized for performance and cost.\n- **Variant**: Yes, it's a variant of the GPT-3.5, specifically designed for higher context length (16k tokens) and improved responsiveness."
+    },
+    {
+      "name": "Google: PaLM 2 Code Chat 32k",
+      "id": "google/palm-2-codechat-bison-32k",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "32,760",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for 'Google: PaLM 2 Code Chat 32k' was found.",
+      "description": "- **Strengths**: Excels in coding queries, advanced reasoning, multilingual understanding, and translation.\n- **Weaknesses**: May struggle with highly specialized or niche coding problems.\n- **Relevant Information**: Fine-tuned from Google's PaLM 2; supports extensive conversations around coding topics.\n- **Model Variant**: Yes, it's a variant of the PaLM 2 model family, optimized for coding and chat interactions."
+    },
+    {
+      "name": "Google: PaLM 2 Chat 32k",
+      "id": "google/palm-2-chat-bison-32k",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "32,760",
+      "moderation": "None",
+      "speed": "The performance data for 'Google: PaLM 2 Chat 32k' specifically in tokens per second is not found in the available information.",
+      "description": "- **Good at**: Advanced reasoning, multilingual tasks, coding support, text generation, translation.\n- **Not good at**: Summarization and Q&A tasks compared to competitors like GPT-4; has some performance limitations in specific benchmarks.\n- **Other relevant info**: Successor to the earlier PaLM model; excels in programming assistance and natural language tasks.\n- **Model variant**: Yes, it\u2019s a variant of the original Pathways Language Model (PaLM)."
+    },
+    {
+      "name": "Airoboros 70B",
+      "id": "jondurbin/airoboros-l2-70b",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.5",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The Airoboros 70B model can generate approximately 9 tokens per second, depending on the hardware used.",
+      "description": "- **Strengths**: Excels in generating human-like text, versatile in tasks like summarization, translation, and question answering.\n- **Weaknesses**: May struggle with prompt formatting issues due to past model bugs.\n- **Additional Info**: Fine-tuned from Llama-2, utilizes synthetic data for instruction fine-tuning.\n- **Model Type**: Variant of the Llama-2 model, specifically designed for enhanced capabilities."
+    },
+    {
+      "name": "Xwin 70B",
+      "id": "xwin-lm/xwin-lm-70b",
+      "prompt_cost": "$3.75",
+      "completion_cost": "$3.75",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The Xwin 70B model's performance is reported to reach a speed of approximately 1.2 tokens per second for subsequent text generation after initial load.",
+      "description": "- **Strengths**: Excels in multi-turn conversations, outperforming models like GPT-4 on benchmarks (95.57% on AlpacaEval).\n- **Weaknesses**: May struggle with extremely niche domain knowledge or highly technical queries.\n- **Relevant Info**: Built on LLaMA-2 architecture; focuses on alignment and stability in responses.\n- **Variants**: Xwin 70B is part of the Xwin-LM family, iterating on smaller models."
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct v0.1",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "prompt_cost": "$0.18",
+      "completion_cost": "$0.18",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The Mistral-7B-Instruct-v0.1 model demonstrates a strong throughput of about 800 tokens per second.",
+      "description": "- **Good at:** Instruction-based tasks, conversational AI, generating human-like text, outperforming Llama models on benchmarks.\n- **Not good at:** Handling long-distance information effectively; performance degrades on such tasks.\n- **Relevant Info:** Uses grouped-query attention and sliding window attention; fine-tuned on public conversational datasets.\n- **Model Variant:** Instruct version of the Mistral 7B generative text model."
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "prompt_cost": "$1.5",
+      "completion_cost": "$2",
+      "context_length": "4,095",
+      "moderation": "Moderated",
+      "speed": "The specific tokens per second performance data for 'OpenAI: GPT-3.5 Turbo Instruct' was not found.",
+      "description": "- **Strengths**: Excels in following complex instructions and generating coherent text; similar to text-davinci-003 with a 4097 token limit.\n- **Weaknesses**: Less effective in handling tasks requiring precise calculations; may falter on very complex queries compared to larger models like GPT-4.\n- **Other Info**: Part of InstructGPT models, optimized for instruction-following tasks; can be fine-tuned for specific applications.\n- **Model Type**: Variant of GPT-3.5, specifically designed to enhance instruction-based performance."
+    },
+    {
+      "name": "Pygmalion: Mythalion 13B",
+      "id": "pygmalionai/mythalion-13b",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "The performance of the 'Pygmalion: Mythalion 13B' model is approximately 2 to 9 tokens per second, depending on the hardware configuration used.",
+      "description": "- **What it's good at**: Excelling in role-playing and uncensored chat, generating engaging and immersive dialogues.\n- **What it's not good at**: May struggle with maintaining context over many interactions and complex narratives.\n- **Other relevant information**: It's a blend of Pygmalion-2 and MythoMax models, optimized for dialogue.\n- **Model variant**: Yes, it's a variant merging two previous models (Pygmalion-2 13B and MythoMax 13B)."
+    },
+    {
+      "name": "OpenAI: GPT-4 32k (older v0314)",
+      "id": "openai/gpt-4-32k-0314",
+      "prompt_cost": "$60",
+      "completion_cost": "$120",
+      "context_length": "32,767",
+      "moderation": "Moderated",
+      "speed": "The AI model 'OpenAI: GPT-4 32k (older v0314)' has an output speed of approximately 20 tokens per second.",
+      "description": "- **Good at**: Processing large texts (up to 32k tokens), summarizing documents, generating detailed content.\n- **Not good at**: Handling biases, reducing hallucinations, managing adversarial prompts.\n- **Capabilities**: Multimodal (text and images), trained on extensive data.\n- **Variant**: Extended version of GPT-4, specifically designed for longer context handling."
+    },
+    {
+      "name": "OpenAI: GPT-4 32k",
+      "id": "openai/gpt-4-32k",
+      "prompt_cost": "$60",
+      "completion_cost": "$120",
+      "context_length": "32,767",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second data was found for the 'OpenAI: GPT-4 32k' model.",
+      "description": "- **Good at**: Advanced language understanding, generating human-like text, completing complex tasks, and contextual comprehension.\n- **Not good at**: Real-time information retrieval, handling ambiguous queries, and producing factually accurate information consistently.\n- **Relevant info**: Supports longer context windows (up to 32k tokens), beneficial for detailed conversations.\n- **Variant**: Yes, it is an enhanced version of GPT-4 with increased token capacity."
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "id": "openai/gpt-3.5-turbo-16k",
+      "prompt_cost": "$3",
+      "completion_cost": "$4",
+      "context_length": "16,385",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second data for the 'OpenAI: GPT-3.5 Turbo 16k' model was found.",
+      "description": "- **Good at:** Understanding context, generating coherent text, answering questions, and language translation.  \n- **Not good at:** Factual accuracy, comprehending ambiguous prompts, and performing specialized tasks requiring expert knowledge.  \n- **Other Relevant Information:** Ideal for applications needing extensive text input (16,000 tokens); features faster performance and improved contextual understanding.  \n- **Variant:** Yes, it's a variant of GPT-3 with enhancements for larger context handling and efficiency."
+    },
+    {
+      "name": "Nous: Hermes 13B",
+      "id": "nousresearch/nous-hermes-llama2-13b",
+      "prompt_cost": "$0.17",
+      "completion_cost": "$0.17",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The AI model 'Nous: Hermes 13B' can generate approximately 9 tokens per second.",
+      "description": "- **Strengths**: Excellent long-form response generation, low hallucination rates, and versatile across various language tasks.\n- **Weaknesses**: Limited proficiency in factual accuracy and reasoning tasks compared to top-tier models.\n- **Additional Info**: Fine-tuned on over 300,000 instructions; performs well in benchmarks; lacks censorship mechanisms.\n- **Model Variant**: Yes, it's a refined version of the original Hermes model, specifically from the Llama family."
+    },
+    {
+      "name": "Hugging Face: Zephyr 7B (free)",
+      "id": "huggingfaceh4/zephyr-7b-beta:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second performance data for the 'Hugging Face: Zephyr 7B (free)' model was found.",
+      "description": "- **Good at:** Interpreting complex questions, multi-turn conversation, and summarizing text.\n- **Not good at:** Handling highly specialized jargon or niche topics.\n- **Relevant info:** Fine-tuned version of Mistral-7B using Direct Preference Optimization; designed for helpfulness and task accuracy.\n- **Model variant:** Yes, it is a variant of the Mistral-7B model series."
+    },
+    {
+      "name": "Mancer: Weaver (alpha)",
+      "id": "mancer/weaver",
+      "prompt_cost": "$1.875",
+      "completion_cost": "$2.25",
+      "context_length": "8,000",
+      "moderation": "None",
+      "speed": "No specific data on tokens per second for the AI model 'Mancer: Weaver (alpha)' was found in the search results.",
+      "description": "- **Good at**: Creative writing, roleplay, narrative generation; attempts to mimic Claude-style verbosity.\n- **Not good at**: Coherence and memory on complex tasks; less reliable than Claude models.\n- **Other information**: Designed for specific applications; part of a family of models (Weaver).\n- **Model variant**: Yes, it's part of the Weaver family, which includes models of various sizes."
+    },
+    {
+      "name": "Anthropic: Claude Instant v1.0",
+      "id": "anthropic/claude-instant-1.0",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "Moderated",
+      "speed": "The specific performance measurement of Claude Instant v1.0 in tokens per second was not found.",
+      "description": "- **What the model is good at**: Quick, reliable responses; conversational tasks; coding and math problem-solving.\n- **What the model is not good at**: Less effective in complex cognitive tasks compared to higher versions (e.g., Claude 3).\n- **Other relevant information**: Designed for cost-effectiveness and speed; performs well in multilingual contexts.\n- **Variant of existing model**: Yes, a streamlined version of the Claude AI series."
+    },
+    {
+      "name": "Anthropic: Claude v1.2",
+      "id": "anthropic/claude-1.2",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second data for 'Anthropic: Claude v1.2' was found.",
+      "description": "- **Good at:** Math, coding, quote extraction, multilingual capabilities, and question answering.\n- **Not good at:** Vision tasks (lacks image capabilities compared to Claude 3).\n- **Relevant info:** Significant improvements over Claude Instant 1.1; notable performance on Codex and GSM8K benchmarks.\n- **Model variant:** It is an updated version in the Claude series, specifically Claude Instant 1.2, which is a predecessor to Claude 3 models."
+    },
+    {
+      "name": "Anthropic: Claude v1",
+      "id": "anthropic/claude-1",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "Moderated",
+      "speed": "The specific tokens per second performance data for 'Anthropic: Claude v1' is not found.",
+      "description": "- **What it's good at**: Proficient in language tasks, reasoning, analysis, and complex cognitive tasks.\n- **What it's not good at**: Limited in coding precision, advanced math, and logical reasoning.\n- **Other relevant info**: Transformer-based architecture with over 9 billion parameters; trained on extensive dialogue data.\n- **Model variant**: Claude v1 is the initial version; subsequent versions include Claude 3.5 and variants like Sonnet and Opus."
+    },
+    {
+      "name": "Anthropic: Claude Instant v1",
+      "id": "anthropic/claude-instant-1",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second data for 'Anthropic: Claude Instant v1' was found.",
+      "description": "- **Good at:** Rapid responses, cost-effective output, creative text generation, summarization, quote extraction, multilingual capability, and math/coding tasks.\n- **Not good at:** Retaining personal data, sometimes misunderstands directives or formatting in large text inputs.\n- **Other Information:** Utilizes a smaller model (153M parameters) for efficiency, offers budget-friendly pricing compared to larger models.\n- **Variant:** It is a variant of the Claude model family."
+    },
+    {
+      "name": "Anthropic: Claude Instant v1 (self-moderated)",
+      "id": "anthropic/claude-instant-1:beta",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "None",
+      "speed": "The performance of the AI model 'Anthropic: Claude Instant v1 (self-moderated)' is 82.1 tokens per second.",
+      "description": "- **Good at:** Fast text generation, coding, question answering, multilingual capabilities, and summarization.\n- **Not good at:** Handling complex tasks that require extensive reasoning; less context retention than larger models.\n- **Other info:** Self-moderated responses; supports hundreds of pages of text; cost-effective pricing.\n- **Variant:** It\u2019s a smaller, faster, and cheaper variant of the larger Claude models."
+    },
+    {
+      "name": "Anthropic: Claude v2.0",
+      "id": "anthropic/claude-2.0",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "Moderated",
+      "speed": "The performance of the AI model 'Anthropic: Claude v2.0' is reported to be a median output speed of 31 tokens per second.",
+      "description": "- **Good at**: Language tasks, reasoning, complex cognitive tasks, coding, and generating long-form text.\n- **Not good at**: Handling highly ambiguous queries and may generate biased or harmful content without careful structuring.\n- **Other information**: Emphasizes safety and steerability in outputs; suited for enterprise applications.\n- **Model Variant**: Yes, Claude v2.0 is an evolution of previous Claude models, designed to enhance performance and reliability."
+    },
+    {
+      "name": "Anthropic: Claude v2.0 (self-moderated)",
+      "id": "anthropic/claude-2.0:beta",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for Anthropic: Claude v2.0 was found.",
+      "description": "- **What it's good at:**  \n  - Summarizing long documents  \n  - Reducing model hallucination  \n  - Programming tasks (e.g., coding help)  \n\n- **What it's not good at:**  \n  - Producing entirely bias-free content  \n  - Handling sensitive topics without risk  \n\n- **Other relevant info:**  \n  - Self-moderated responses  \n  - 200K token context window for extensive text processing  \n\n- **Model variant:**  \n  - Advanced version of Claude 1.3 with iterative improvements"
+    },
+    {
+      "name": "ReMM SLERP 13B",
+      "id": "undi95/remm-slerp-l2-13b",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the ReMM SLERP 13B model was found.",
+      "description": "- **Strengths**: Good for generating creative content, fine-tuning tasks, and advanced AI applications.\n- **Weaknesses**: May struggle with adherence to specific instructions and context limitations.\n- **Relevant Info**: A recreation of the original MythoMax-L2-B13, utilizing SLERP merging techniques.\n- **Model Variant**: Yes, it's a variant of MythoMax."
+    },
+    {
+      "name": "ReMM SLERP 13B (extended)",
+      "id": "undi95/remm-slerp-l2-13b:extended",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "6,144",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the ReMM SLERP 13B (extended) model was found.",
+      "description": "- **Good at:** Extended context handling, generating coherent narratives, and mimicking conversational styles.\n- **Not good at:** Highly specialized knowledge, complex problem-solving, or reasoning tasks.\n- **Additional Info:** A recreation of the MythoMax-L2-B13 model with updates; it offers extended-context endpoints with potentially higher costs.\n- **Model Variant:** Yes, it's an extended version of MythoMax-L2-B13."
+    },
+    {
+      "name": "Google: PaLM 2 Code Chat",
+      "id": "google/palm-2-codechat-bison",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "7,168",
+      "moderation": "None",
+      "speed": "The performance of the AI model 'Google: PaLM 2 Code Chat' in terms of tokens per second is not specifically mentioned; however, the overall PaLM 2 model can generate text at over 3,000 tokens per second.",
+      "description": "- **Strengths**: Excels in advanced reasoning, coding tasks, multilingual support, and natural language understanding.\n- **Weaknesses**: May struggle with nuanced contextual understanding in highly complex or abstract scenarios.\n- **Relevant Info**: Trained on diverse datasets, supports over 100 languages, and optimized for chat and text generation.\n- **Variants**: Part of the broader PaLM 2 family, tailored for various applications including coding and conversational use cases."
+    },
+    {
+      "name": "Google: PaLM 2 Chat",
+      "id": "google/palm-2-chat-bison",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "9,216",
+      "moderation": "None",
+      "speed": "The Google PaLM 2 Chat model can process more than 75 tokens per second.",
+      "description": "- **Strengths**: Excels in multilingual capabilities, advanced reasoning, and coding tasks; efficient with faster inference and fewer parameters.\n- **Weaknesses**: May struggle with highly specialized niche knowledge or complex contextual nuances.\n- **Relevant Info**: Successor to PaLM, utilizing compute-optimal scaling for improved performance.\n- **Variants**: Includes specialized versions like Sec-PaLM for security tasks."
+    },
+    {
+      "name": "MythoMax 13B (free)",
+      "id": "gryphe/mythomax-l2-13b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for the MythoMax 13B (free) model was found.",
+      "description": "- **Good at**: Storytelling, roleplaying, and creative writing.\n- **Not good at**: Technical and factual accuracy; may generate fictional or exaggerated content.\n- **Relevant info**: A fine-tuned variant of Llama 2 (MythoMax-L2) with enhanced narrative abilities; uses a unique tensor merging technique.\n- **Model variant**: Yes, an improved version of the MythoMix model, combining MythoLogic-L2 and Huginn."
+    },
+    {
+      "name": "MythoMax 13B",
+      "id": "gryphe/mythomax-l2-13b",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The performance of the MythoMax 13B model is reported to be approximately 9 tokens per second.",
+      "description": "- **Good at**: Storytelling, roleplaying, and creative writing.\n- **Not good at**: Complex reasoning tasks beyond narrative generation.\n- **Other information**: An improved variant of MythoLogic-L2 and Huginn, optimized for narrative contexts; supports Alpaca formatting.\n- **Model variant**: Yes, it's a fine-tuned version of Llama 2 13B."
+    },
+    {
+      "name": "MythoMax 13B (nitro)",
+      "id": "gryphe/mythomax-l2-13b:nitro",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "No specific tokens per second data for \"MythoMax 13B (nitro)\" was found.",
+      "description": "- **Good at**: Creative writing, storytelling, and role-playing tasks.\n- **Not good at**: Complex reasoning and technical tasks.\n- **Relevant info**: High performance as a fine-tuning of Llama 2 13B; uses advanced tensor merging techniques.\n- **Variant information**: Improved version of MythoMix, merging MythoLogic-L2 and Huginn."
+    },
+    {
+      "name": "MythoMax 13B (extended)",
+      "id": "gryphe/mythomax-l2-13b:extended",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "8,192",
+      "moderation": "None",
+      "speed": "No specific tokens per second data was found for the MythoMax 13B (extended) model.",
+      "description": "- **Strengths**: Excellent for creative writing, roleplaying, and generating dialogues and narratives.\n- **Weaknesses**: May struggle with factual accuracy and complex reasoning tasks.\n- **Additional Info**: Combines features of MythoMix, MythoLogic-L2, and Huginn; robust NLP capabilities.\n- **Model Variant**: Yes, it is an enhanced version derived from existing models (MythoMix and others)."
+    },
+    {
+      "name": "Meta: Llama v2 13B Chat",
+      "id": "meta-llama/llama-2-13b-chat",
+      "prompt_cost": "$0.198",
+      "completion_cost": "$0.198",
+      "context_length": "4,096",
+      "moderation": "None",
+      "speed": "The performance of the Meta: Llama v2 13B Chat model is reported to be 688 tokens per second on an optimized instance.",
+      "description": "- **Good at**: Optimized for dialogue, accurate and contextually relevant responses, outperforming some open-source models.\n- **Not good at**: Can struggle with highly specialized topics or nuanced user intent.\n- **Other relevant info**: Built on Reinforcement Learning from Human Feedback (RLHF), enhancing helpfulness and safety.\n- **Variant**: Llama v2 13B Chat is a fine-tuned version of the base Llama 2 model, specifically designed for chat applications."
+    },
+    {
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4-0314",
+      "prompt_cost": "$30",
+      "completion_cost": "$60",
+      "context_length": "8,191",
+      "moderation": "Moderated",
+      "speed": "No specific tokens per second data for 'OpenAI: GPT-4 (older v0314)' was found.",
+      "description": "- **Good at:** Natural language understanding, generating human-like text, answering questions, and engaging in conversation.\n- **Not good at:** Factual accuracy in real-time, common sense reasoning, and processing highly specialized knowledge outside its training.\n- **Relevant info:** Utilizes a transformer architecture; can handle nuanced prompts; improvements in context retention over previous versions.\n- **Variant status:** Yes, it's an improved variant of OpenAI's earlier models, particularly GPT-3."
+    },
+    {
+      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4",
+      "prompt_cost": "$30",
+      "completion_cost": "$60",
+      "context_length": "8,191",
+      "moderation": "Moderated",
+      "speed": "The performance of the AI model 'OpenAI: GPT-4' is reported to be approximately 26.3 tokens per second.",
+      "description": "- **What it's good at**: Natural language understanding, generating coherent text, answering questions, creative writing.\n- **What it's not good at**: Understanding context beyond text, real-time data access, reasoning with complete accuracy.\n- **Other relevant information**: Improved comprehension and creativity over previous models, excels in diverse applications including chatbots and content generation.\n- **Variant**: It is a more advanced version of OpenAI's earlier models, specifically GPT-3."
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "id": "openai/gpt-3.5-turbo-0125",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "16,385",
+      "moderation": "Moderated",
+      "speed": "The performance of 'OpenAI: GPT-3.5 Turbo 16k' is reported to be 82.2 tokens per second.",
+      "description": "- **What it's good at:** Advanced natural language processing, generating coherent and contextually relevant text, understanding prompts, and engaging in conversations.\n- **What it's not good at:** Handling highly specialized knowledge, reasoning through complex logic, and providing real-time factual accuracy.\n- **Other relevant information:** Larger context window (up to 16k tokens), better performance in multiple tasks compared to previous versions.\n- **Model variant:** Yes, it's an enhanced version of GPT-3 with improved capabilities."
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "id": "openai/gpt-3.5-turbo",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "16,385",
+      "moderation": "Moderated",
+      "speed": "The performance of OpenAI's GPT-3.5 Turbo model is around 67.83 tokens per second.",
+      "description": "- **Good at:** Generating human-like text, conversational agents, answering questions, and creative writing.\n- **Not good at:** Guaranteeing factual accuracy, understanding nuanced contexts like sarcasm, and handling ambiguous queries effectively.\n- **Other Info:** Faster and cheaper than previous models, optimized for chat applications. Supports longer context lengths.\n- **Variant:** A refined version of GPT-3, specifically designed for improved performance and efficiency in real-time applications."
+    }
+  ],
+  "media_models": [
+    {
+      "name": "OpenAI: Shap-e",
+      "id": "openai/shap-e",
+      "cost": "$0.01 / 32 steps"
+    }
+  ]
+}

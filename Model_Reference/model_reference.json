@@ -1,0 +1,1539 @@
+{
+  "text_models": [
+    {
+      "name": "xAI: Grok Beta",
+      "id": "x-ai/grok-beta",
+      "prompt_cost": "$5",
+      "completion_cost": "$15",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Ministral 8B",
+      "id": "mistralai/ministral-8b",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Ministral 3B",
+      "id": "mistralai/ministral-3b",
+      "prompt_cost": "$0.04",
+      "completion_cost": "$0.04",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen2.5 7B Instruct",
+      "id": "qwen/qwen-2.5-7b-instruct",
+      "prompt_cost": "$0.27",
+      "completion_cost": "$0.27",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "NVIDIA: Llama 3.1 Nemotron 70B Instruct",
+      "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Inflection: Inflection 3 Pi",
+      "id": "inflection/inflection-3-pi",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "8,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Inflection: Inflection 3 Productivity",
+      "id": "inflection/inflection-3-productivity",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "8,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini 1.5 Flash-8B",
+      "id": "google/gemini-flash-1.5-8b",
+      "prompt_cost": "$0.0375",
+      "completion_cost": "$0.15",
+      "context_length": "1,000,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Liquid: LFM 40B MoE",
+      "id": "liquid/lfm-40b",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Liquid: LFM 40B MoE (free)",
+      "id": "liquid/lfm-40b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Rocinante 12B",
+      "id": "thedrummer/rocinante-12b",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.5",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "EVA Qwen2.5 14B",
+      "id": "eva-unit-01/eva-qwen-2.5-14b",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.5",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Magnum v2 72B",
+      "id": "anthracite-org/magnum-v2-72b",
+      "prompt_cost": "$3.75",
+      "completion_cost": "$4.5",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "prompt_cost": "$0.03",
+      "completion_cost": "$0.05",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 1B Instruct (free)",
+      "id": "meta-llama/llama-3.2-1b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "prompt_cost": "$0.01",
+      "completion_cost": "$0.02",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 90B Vision Instruct",
+      "id": "meta-llama/llama-3.2-90b-vision-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 11B Vision Instruct (free)",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.2 11B Vision Instruct",
+      "id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen2.5 72B Instruct",
+      "id": "qwen/qwen-2.5-72b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen2-VL 72B Instruct",
+      "id": "qwen/qwen-2-vl-72b-instruct",
+      "prompt_cost": "$0.4",
+      "completion_cost": "$0.4",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Lumimaid v0.2 8B",
+      "id": "neversleep/llama-3.1-lumimaid-8b",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: o1-mini (2024-09-12)",
+      "id": "openai/o1-mini-2024-09-12",
+      "prompt_cost": "$3",
+      "completion_cost": "$12",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: o1-mini",
+      "id": "openai/o1-mini",
+      "prompt_cost": "$3",
+      "completion_cost": "$12",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: o1-preview (2024-09-12)",
+      "id": "openai/o1-preview-2024-09-12",
+      "prompt_cost": "$15",
+      "completion_cost": "$60",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: o1-preview",
+      "id": "openai/o1-preview",
+      "prompt_cost": "$15",
+      "completion_cost": "$60",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Mistral: Pixtral 12B",
+      "id": "mistralai/pixtral-12b",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Cohere: Command R+ (08-2024)",
+      "id": "cohere/command-r-plus-08-2024",
+      "prompt_cost": "$2.375",
+      "completion_cost": "$9.5",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Cohere: Command R (08-2024)",
+      "id": "cohere/command-r-08-2024",
+      "prompt_cost": "$0.1425",
+      "completion_cost": "$0.57",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen2-VL 7B Instruct",
+      "id": "qwen/qwen-2-vl-7b-instruct",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Flash 8B 1.5 Experimental",
+      "id": "google/gemini-flash-1.5-8b-exp",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "1,000,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Llama 3.1 Euryale 70B v2.2",
+      "id": "sao10k/l3.1-euryale-70b",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Flash 1.5 Experimental",
+      "id": "google/gemini-flash-1.5-exp",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "1,000,000",
+      "moderation": "None"
+    },
+    {
+      "name": "AI21: Jamba 1.5 Large",
+      "id": "ai21/jamba-1-5-large",
+      "prompt_cost": "$2",
+      "completion_cost": "$8",
+      "context_length": "256,000",
+      "moderation": "None"
+    },
+    {
+      "name": "AI21: Jamba 1.5 Mini",
+      "id": "ai21/jamba-1-5-mini",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.4",
+      "context_length": "256,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Phi-3.5 Mini 128K Instruct",
+      "id": "microsoft/phi-3.5-mini-128k-instruct",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Nous: Hermes 3 70B Instruct",
+      "id": "nousresearch/hermes-3-llama-3.1-70b",
+      "prompt_cost": "$0.4",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Nous: Hermes 3 405B Instruct (free)",
+      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Nous: Hermes 3 405B Instruct",
+      "id": "nousresearch/hermes-3-llama-3.1-405b",
+      "prompt_cost": "$1.79",
+      "completion_cost": "$2.49",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Nous: Hermes 3 405B Instruct (extended)",
+      "id": "nousresearch/hermes-3-llama-3.1-405b:extended",
+      "prompt_cost": "$4.5",
+      "completion_cost": "$4.5",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 405B Online",
+      "id": "perplexity/llama-3.1-sonar-huge-128k-online",
+      "prompt_cost": "$5",
+      "completion_cost": "$5",
+      "context_length": "127,072",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: ChatGPT-4o",
+      "id": "openai/chatgpt-4o-latest",
+      "prompt_cost": "$5",
+      "completion_cost": "$15",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Llama 3 8B Lunaris",
+      "id": "sao10k/l3-lunaris-8b",
+      "prompt_cost": "$2",
+      "completion_cost": "$2",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral Nemo 12B Starcannon",
+      "id": "aetherwiing/mn-starcannon-12b",
+      "prompt_cost": "$2",
+      "completion_cost": "$2",
+      "context_length": "12,000",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4o (2024-08-06)",
+      "id": "openai/gpt-4o-2024-08-06",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Meta: Llama 3.1 405B (base)",
+      "id": "meta-llama/llama-3.1-405b",
+      "prompt_cost": "$2",
+      "completion_cost": "$2",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral Nemo 12B Celeste",
+      "id": "nothingiisreal/mn-celeste-12b",
+      "prompt_cost": "$1.5",
+      "completion_cost": "$1.5",
+      "context_length": "32,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Pro 1.5 Experimental",
+      "id": "google/gemini-pro-1.5-exp",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "1,000,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 70B Online",
+      "id": "perplexity/llama-3.1-sonar-large-128k-online",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "127,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 70B",
+      "id": "perplexity/llama-3.1-sonar-large-128k-chat",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 8B Online",
+      "id": "perplexity/llama-3.1-sonar-small-128k-online",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "127,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama 3.1 Sonar 8B",
+      "id": "perplexity/llama-3.1-sonar-small-128k-chat",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.1 70B Instruct (free)",
+      "id": "meta-llama/llama-3.1-70b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.1 70B Instruct",
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.1 8B Instruct (free)",
+      "id": "meta-llama/llama-3.1-8b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.1 405B Instruct (free)",
+      "id": "meta-llama/llama-3.1-405b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3.1 405B Instruct",
+      "id": "meta-llama/llama-3.1-405b-instruct",
+      "prompt_cost": "$1.79",
+      "completion_cost": "$1.79",
+      "context_length": "131,072",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Codestral Mamba",
+      "id": "mistralai/codestral-mamba",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.25",
+      "context_length": "256,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral Nemo",
+      "id": "mistralai/mistral-nemo",
+      "prompt_cost": "$0.13",
+      "completion_cost": "$0.13",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "prompt_cost": "$0.15",
+      "completion_cost": "$0.6",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-4o-mini",
+      "id": "openai/gpt-4o-mini",
+      "prompt_cost": "$0.15",
+      "completion_cost": "$0.6",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Qwen 2 7B Instruct (free)",
+      "id": "qwen/qwen-2-7b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen 2 7B Instruct",
+      "id": "qwen/qwen-2-7b-instruct",
+      "prompt_cost": "$0.054",
+      "completion_cost": "$0.054",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemma 2 27B",
+      "id": "google/gemma-2-27b-it",
+      "prompt_cost": "$0.27",
+      "completion_cost": "$0.27",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Magnum 72B",
+      "id": "alpindale/magnum-72b",
+      "prompt_cost": "$3.75",
+      "completion_cost": "$4.5",
+      "context_length": "16,384",
+      "moderation": "None"
+    },
+    {
+      "name": "Nous: Hermes 2 Theta 8B",
+      "id": "nousresearch/hermes-2-theta-llama-3-8b",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "16,384",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemma 2 9B (free)",
+      "id": "google/gemma-2-9b-it:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemma 2 9B",
+      "id": "google/gemma-2-9b-it",
+      "prompt_cost": "$0.06",
+      "completion_cost": "$0.06",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "AI21: Jamba Instruct",
+      "id": "ai21/jamba-instruct",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.7",
+      "context_length": "256,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude 3.5 Sonnet",
+      "id": "anthropic/claude-3.5-sonnet",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude 3.5 Sonnet (self-moderated)",
+      "id": "anthropic/claude-3.5-sonnet:beta",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Llama 3 Euryale 70B v2.1",
+      "id": "sao10k/l3-euryale-70b",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Dolphin 2.9.2 Mixtral 8x22B \ud83d\udc2c",
+      "id": "cognitivecomputations/dolphin-mixtral-8x22b",
+      "prompt_cost": "$0.9",
+      "completion_cost": "$0.9",
+      "context_length": "65,536",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen 2 72B Instruct",
+      "id": "qwen/qwen-2-72b-instruct",
+      "prompt_cost": "$0.34",
+      "completion_cost": "$0.39",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "NousResearch: Hermes 2 Pro - Llama-3 8B",
+      "id": "nousresearch/hermes-2-pro-llama-3-8b",
+      "prompt_cost": "$0.14",
+      "completion_cost": "$0.14",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct v0.3",
+      "id": "mistralai/mistral-7b-instruct-v0.3",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct (free)",
+      "id": "mistralai/mistral-7b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct",
+      "id": "mistralai/mistral-7b-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct (nitro)",
+      "id": "mistralai/mistral-7b-instruct:nitro",
+      "prompt_cost": "$0.07",
+      "completion_cost": "$0.07",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Phi-3 Mini 128K Instruct (free)",
+      "id": "microsoft/phi-3-mini-128k-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Phi-3 Mini 128K Instruct",
+      "id": "microsoft/phi-3-mini-128k-instruct",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Phi-3 Medium 128K Instruct (free)",
+      "id": "microsoft/phi-3-medium-128k-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Phi-3 Medium 128K Instruct",
+      "id": "microsoft/phi-3-medium-128k-instruct",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Llama 3 Lumimaid 70B",
+      "id": "neversleep/llama-3-lumimaid-70b",
+      "prompt_cost": "$3.375",
+      "completion_cost": "$4.5",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Flash 1.5",
+      "id": "google/gemini-flash-1.5",
+      "prompt_cost": "$0.075",
+      "completion_cost": "$0.3",
+      "context_length": "1,000,000",
+      "moderation": "None"
+    },
+    {
+      "name": "DeepSeek V2.5",
+      "id": "deepseek/deepseek-chat",
+      "prompt_cost": "$0.14",
+      "completion_cost": "$0.28",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama3 Sonar 70B Online",
+      "id": "perplexity/llama-3-sonar-large-32k-online",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "28,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama3 Sonar 70B",
+      "id": "perplexity/llama-3-sonar-large-32k-chat",
+      "prompt_cost": "$1",
+      "completion_cost": "$1",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Perplexity: Llama3 Sonar 8B",
+      "id": "perplexity/llama-3-sonar-small-32k-chat",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: LlamaGuard 2 8B",
+      "id": "meta-llama/llama-guard-2-8b",
+      "prompt_cost": "$0.18",
+      "completion_cost": "$0.18",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "id": "openai/gpt-4o-2024-05-13",
+      "prompt_cost": "$5",
+      "completion_cost": "$15",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-4o",
+      "id": "openai/gpt-4o",
+      "prompt_cost": "$2.5",
+      "completion_cost": "$10",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-4o (extended)",
+      "id": "openai/gpt-4o:extended",
+      "prompt_cost": "$6",
+      "completion_cost": "$18",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen 1.5 72B Chat",
+      "id": "qwen/qwen-72b-chat",
+      "prompt_cost": "$0.81",
+      "completion_cost": "$0.81",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Qwen 1.5 110B Chat",
+      "id": "qwen/qwen-110b-chat",
+      "prompt_cost": "$1.62",
+      "completion_cost": "$1.62",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Llama 3 Lumimaid 8B",
+      "id": "neversleep/llama-3-lumimaid-8b",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "24,576",
+      "moderation": "None"
+    },
+    {
+      "name": "Llama 3 Lumimaid 8B (extended)",
+      "id": "neversleep/llama-3-lumimaid-8b:extended",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "24,576",
+      "moderation": "None"
+    },
+    {
+      "name": "Fimbulvetr 11B v2",
+      "id": "sao10k/fimbulvetr-11b-v2",
+      "prompt_cost": "$0.375",
+      "completion_cost": "$1.5",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3 70B Instruct",
+      "id": "meta-llama/llama-3-70b-instruct",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3 70B Instruct (nitro)",
+      "id": "meta-llama/llama-3-70b-instruct:nitro",
+      "prompt_cost": "$0.792",
+      "completion_cost": "$0.792",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct (free)",
+      "id": "meta-llama/llama-3-8b-instruct:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct",
+      "id": "meta-llama/llama-3-8b-instruct",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct (nitro)",
+      "id": "meta-llama/llama-3-8b-instruct:nitro",
+      "prompt_cost": "$0.162",
+      "completion_cost": "$0.162",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama 3 8B Instruct (extended)",
+      "id": "meta-llama/llama-3-8b-instruct:extended",
+      "prompt_cost": "$0.1875",
+      "completion_cost": "$1.125",
+      "context_length": "16,384",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mixtral 8x22B Instruct",
+      "id": "mistralai/mixtral-8x22b-instruct",
+      "prompt_cost": "$0.9",
+      "completion_cost": "$0.9",
+      "context_length": "65,536",
+      "moderation": "None"
+    },
+    {
+      "name": "WizardLM-2 7B",
+      "id": "microsoft/wizardlm-2-7b",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "32,000",
+      "moderation": "None"
+    },
+    {
+      "name": "WizardLM-2 8x22B",
+      "id": "microsoft/wizardlm-2-8x22b",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.5",
+      "context_length": "65,536",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Pro 1.5",
+      "id": "google/gemini-pro-1.5",
+      "prompt_cost": "$1.25",
+      "completion_cost": "$5",
+      "context_length": "2,000,000",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4 Turbo",
+      "id": "openai/gpt-4-turbo",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Cohere: Command R+",
+      "id": "cohere/command-r-plus",
+      "prompt_cost": "$2.85",
+      "completion_cost": "$14.25",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Cohere: Command R+ (04-2024)",
+      "id": "cohere/command-r-plus-04-2024",
+      "prompt_cost": "$2.85",
+      "completion_cost": "$14.25",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Databricks: DBRX 132B Instruct",
+      "id": "databricks/dbrx-instruct",
+      "prompt_cost": "$1.08",
+      "completion_cost": "$1.08",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Midnight Rose 70B",
+      "id": "sophosympatheia/midnight-rose-70b",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$0.8",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Cohere: Command R",
+      "id": "cohere/command-r",
+      "prompt_cost": "$0.475",
+      "completion_cost": "$1.425",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Cohere: Command",
+      "id": "cohere/command",
+      "prompt_cost": "$0.95",
+      "completion_cost": "$1.9",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude 3 Haiku",
+      "id": "anthropic/claude-3-haiku",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$1.25",
+      "context_length": "200,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude 3 Haiku (self-moderated)",
+      "id": "anthropic/claude-3-haiku:beta",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$1.25",
+      "context_length": "200,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude 3 Sonnet",
+      "id": "anthropic/claude-3-sonnet",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude 3 Sonnet (self-moderated)",
+      "id": "anthropic/claude-3-sonnet:beta",
+      "prompt_cost": "$3",
+      "completion_cost": "$15",
+      "context_length": "200,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude 3 Opus",
+      "id": "anthropic/claude-3-opus",
+      "prompt_cost": "$15",
+      "completion_cost": "$75",
+      "context_length": "200,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude 3 Opus (self-moderated)",
+      "id": "anthropic/claude-3-opus:beta",
+      "prompt_cost": "$15",
+      "completion_cost": "$75",
+      "context_length": "200,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Cohere: Command R (03-2024)",
+      "id": "cohere/command-r-03-2024",
+      "prompt_cost": "$0.475",
+      "completion_cost": "$1.425",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral Large",
+      "id": "mistralai/mistral-large",
+      "prompt_cost": "$2",
+      "completion_cost": "$6",
+      "context_length": "128,000",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4 Turbo Preview",
+      "id": "openai/gpt-4-turbo-preview",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "id": "openai/gpt-3.5-turbo-0613",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "4,095",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Nous: Hermes 2 Mixtral 8x7B DPO",
+      "id": "nousresearch/nous-hermes-2-mixtral-8x7b-dpo",
+      "prompt_cost": "$0.54",
+      "completion_cost": "$0.54",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral Medium",
+      "id": "mistralai/mistral-medium",
+      "prompt_cost": "$2.75",
+      "completion_cost": "$8.1",
+      "context_length": "32,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral Small",
+      "id": "mistralai/mistral-small",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.6",
+      "context_length": "32,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral Tiny",
+      "id": "mistralai/mistral-tiny",
+      "prompt_cost": "$0.25",
+      "completion_cost": "$0.25",
+      "context_length": "32,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct v0.2",
+      "id": "mistralai/mistral-7b-instruct-v0.2",
+      "prompt_cost": "$0.18",
+      "completion_cost": "$0.18",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Dolphin 2.6 Mixtral 8x7B \ud83d\udc2c",
+      "id": "cognitivecomputations/dolphin-mixtral-8x7b",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.5",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Pro 1.0",
+      "id": "google/gemini-pro",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "32,760",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: Gemini Pro Vision 1.0",
+      "id": "google/gemini-pro-vision",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "16,384",
+      "moderation": "None"
+    },
+    {
+      "name": "Mixtral 8x7B Instruct",
+      "id": "mistralai/mixtral-8x7b-instruct",
+      "prompt_cost": "$0.24",
+      "completion_cost": "$0.24",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Mixtral 8x7B Instruct (nitro)",
+      "id": "mistralai/mixtral-8x7b-instruct:nitro",
+      "prompt_cost": "$0.54",
+      "completion_cost": "$0.54",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "Mixtral 8x7B (base)",
+      "id": "mistralai/mixtral-8x7b",
+      "prompt_cost": "$0.54",
+      "completion_cost": "$0.54",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "MythoMist 7B (free)",
+      "id": "gryphe/mythomist-7b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "MythoMist 7B",
+      "id": "gryphe/mythomist-7b",
+      "prompt_cost": "$0.375",
+      "completion_cost": "$0.375",
+      "context_length": "32,768",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenChat 3.5 7B (free)",
+      "id": "openchat/openchat-7b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenChat 3.5 7B",
+      "id": "openchat/openchat-7b",
+      "prompt_cost": "$0.055",
+      "completion_cost": "$0.055",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Noromaid 20B",
+      "id": "neversleep/noromaid-20b",
+      "prompt_cost": "$1.5",
+      "completion_cost": "$2.25",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude Instant v1.1",
+      "id": "anthropic/claude-instant-1.1",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude v2.1",
+      "id": "anthropic/claude-2.1",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude v2.1 (self-moderated)",
+      "id": "anthropic/claude-2.1:beta",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude v2",
+      "id": "anthropic/claude-2",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude v2 (self-moderated)",
+      "id": "anthropic/claude-2:beta",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "200,000",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenHermes 2.5 Mistral 7B",
+      "id": "teknium/openhermes-2.5-mistral-7b",
+      "prompt_cost": "$0.17",
+      "completion_cost": "$0.17",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4 Vision",
+      "id": "openai/gpt-4-vision-preview",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "lzlv 70B",
+      "id": "lizpreciatior/lzlv-70b-fp16-hf",
+      "prompt_cost": "$0.35",
+      "completion_cost": "$0.4",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Goliath 120B",
+      "id": "alpindale/goliath-120b",
+      "prompt_cost": "$9.375",
+      "completion_cost": "$9.375",
+      "context_length": "6,144",
+      "moderation": "None"
+    },
+    {
+      "name": "Toppy M 7B (free)",
+      "id": "undi95/toppy-m-7b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Toppy M 7B",
+      "id": "undi95/toppy-m-7b",
+      "prompt_cost": "$0.07",
+      "completion_cost": "$0.07",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Toppy M 7B (nitro)",
+      "id": "undi95/toppy-m-7b:nitro",
+      "prompt_cost": "$0.07",
+      "completion_cost": "$0.07",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Auto (best for prompt)",
+      "id": "openrouter/auto",
+      "prompt_cost": "",
+      "completion_cost": "",
+      "context_length": "200,000",
+      "moderation": "--"
+    },
+    {
+      "name": "OpenAI: GPT-4 Turbo (older v1106)",
+      "id": "openai/gpt-4-1106-preview",
+      "prompt_cost": "$10",
+      "completion_cost": "$30",
+      "context_length": "128,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo 16k (older v1106)",
+      "id": "openai/gpt-3.5-turbo-1106",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "16,385",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Google: PaLM 2 Code Chat 32k",
+      "id": "google/palm-2-codechat-bison-32k",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "32,760",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: PaLM 2 Chat 32k",
+      "id": "google/palm-2-chat-bison-32k",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "32,760",
+      "moderation": "None"
+    },
+    {
+      "name": "Airoboros 70B",
+      "id": "jondurbin/airoboros-l2-70b",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$0.5",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Xwin 70B",
+      "id": "xwin-lm/xwin-lm-70b",
+      "prompt_cost": "$3.75",
+      "completion_cost": "$3.75",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Mistral: Mistral 7B Instruct v0.1",
+      "id": "mistralai/mistral-7b-instruct-v0.1",
+      "prompt_cost": "$0.18",
+      "completion_cost": "$0.18",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "prompt_cost": "$1.5",
+      "completion_cost": "$2",
+      "context_length": "4,095",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Pygmalion: Mythalion 13B",
+      "id": "pygmalionai/mythalion-13b",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4 32k (older v0314)",
+      "id": "openai/gpt-4-32k-0314",
+      "prompt_cost": "$60",
+      "completion_cost": "$120",
+      "context_length": "32,767",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-4 32k",
+      "id": "openai/gpt-4-32k",
+      "prompt_cost": "$60",
+      "completion_cost": "$120",
+      "context_length": "32,767",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "id": "openai/gpt-3.5-turbo-16k",
+      "prompt_cost": "$3",
+      "completion_cost": "$4",
+      "context_length": "16,385",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Nous: Hermes 13B",
+      "id": "nousresearch/nous-hermes-llama2-13b",
+      "prompt_cost": "$0.17",
+      "completion_cost": "$0.17",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Hugging Face: Zephyr 7B (free)",
+      "id": "huggingfaceh4/zephyr-7b-beta:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "Mancer: Weaver (alpha)",
+      "id": "mancer/weaver",
+      "prompt_cost": "$1.875",
+      "completion_cost": "$2.25",
+      "context_length": "8,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude Instant v1.0",
+      "id": "anthropic/claude-instant-1.0",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude v1.2",
+      "id": "anthropic/claude-1.2",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude v1",
+      "id": "anthropic/claude-1",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude Instant v1",
+      "id": "anthropic/claude-instant-1",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude Instant v1 (self-moderated)",
+      "id": "anthropic/claude-instant-1:beta",
+      "prompt_cost": "$0.8",
+      "completion_cost": "$2.4",
+      "context_length": "100,000",
+      "moderation": "None"
+    },
+    {
+      "name": "Anthropic: Claude v2.0",
+      "id": "anthropic/claude-2.0",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "Anthropic: Claude v2.0 (self-moderated)",
+      "id": "anthropic/claude-2.0:beta",
+      "prompt_cost": "$8",
+      "completion_cost": "$24",
+      "context_length": "100,000",
+      "moderation": "None"
+    },
+    {
+      "name": "ReMM SLERP 13B",
+      "id": "undi95/remm-slerp-l2-13b",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "ReMM SLERP 13B (extended)",
+      "id": "undi95/remm-slerp-l2-13b:extended",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "6,144",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: PaLM 2 Code Chat",
+      "id": "google/palm-2-codechat-bison",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "7,168",
+      "moderation": "None"
+    },
+    {
+      "name": "Google: PaLM 2 Chat",
+      "id": "google/palm-2-chat-bison",
+      "prompt_cost": "$1",
+      "completion_cost": "$2",
+      "context_length": "9,216",
+      "moderation": "None"
+    },
+    {
+      "name": "MythoMax 13B (free)",
+      "id": "gryphe/mythomax-l2-13b:free",
+      "prompt_cost": "$0",
+      "completion_cost": "$0",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "MythoMax 13B",
+      "id": "gryphe/mythomax-l2-13b",
+      "prompt_cost": "$0.1",
+      "completion_cost": "$0.1",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "MythoMax 13B (nitro)",
+      "id": "gryphe/mythomax-l2-13b:nitro",
+      "prompt_cost": "$0.2",
+      "completion_cost": "$0.2",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "MythoMax 13B (extended)",
+      "id": "gryphe/mythomax-l2-13b:extended",
+      "prompt_cost": "$1.125",
+      "completion_cost": "$1.125",
+      "context_length": "8,192",
+      "moderation": "None"
+    },
+    {
+      "name": "Meta: Llama v2 13B Chat",
+      "id": "meta-llama/llama-2-13b-chat",
+      "prompt_cost": "$0.198",
+      "completion_cost": "$0.198",
+      "context_length": "4,096",
+      "moderation": "None"
+    },
+    {
+      "name": "OpenAI: GPT-4 (older v0314)",
+      "id": "openai/gpt-4-0314",
+      "prompt_cost": "$30",
+      "completion_cost": "$60",
+      "context_length": "8,191",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-4",
+      "id": "openai/gpt-4",
+      "prompt_cost": "$30",
+      "completion_cost": "$60",
+      "context_length": "8,191",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "id": "openai/gpt-3.5-turbo-0125",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "16,385",
+      "moderation": "Moderated"
+    },
+    {
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "id": "openai/gpt-3.5-turbo",
+      "prompt_cost": "$0.5",
+      "completion_cost": "$1.5",
+      "context_length": "16,385",
+      "moderation": "Moderated"
+    }
+  ],
+  "media_models": [
+    {
+      "name": "OpenAI: Shap-e",
+      "id": "openai/shap-e",
+      "cost": "$0.01 / 32 steps"
+    }
+  ]
+}

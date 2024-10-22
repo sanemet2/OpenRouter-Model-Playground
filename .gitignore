@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Python-related
+__pycache__/
+*.py[cod]
+*.so
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Dependency directories
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+
+# Model reference backups
+Model_Reference/Backups/
+
+# Any local configuration files
+*.local
